@@ -1,0 +1,59 @@
+{"traits" :
+	[
+		{
+			"ID" : "1", 
+			"name" : "Plus Strength", 
+			"description" : "Increases Strength by 100."
+		},
+		{
+			"ID" : "2",
+			"name" : "Plus Defense",
+			"description" : "Increases Defense by 100."
+		},
+		{
+			"ID" : "3",
+			"name" : "Natural Selection",
+			"description" : "Always attacks foe with least HP."
+		},
+		{
+			"ID" : "4",
+			"name" : "Huge Strength",
+			"description" : "Attacks pass through the first row"
+		},
+		{
+			"ID" : "5",
+			"name" : "Gains",
+			"description" : "Increase attack and defense by 1."
+		},
+		{
+			"ID" : "6",
+			"name" : "Fencing drill",
+			"description" : "Block one attack and strike back with a counter"
+		},
+		{
+			"ID" : "7",
+			"name" : "Martyr",
+			"description" : "If a friendly neighbour is in trouble, this unit jumps in to save them."
+		},
+		{
+			"ID" : "8",
+			"name" : "Lightning strike",
+			"description" : "Call down lightning bolts upon your enemy."
+		},
+		{
+			"ID" : "9",
+			"name" : "Blast",
+			"description" : "Strike at your enemy and its neighbours."
+		},
+		{
+			"ID" : "10",
+			"name" : "Strike",
+			"description" : "Strike the enemy with your weapon."
+		},
+		{
+			"ID" : "11",
+			"name" : "DummyTrait",
+			"description" : "Dummytext for a dummytrait. Lets just add some more words to it."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+rött fält:
+>0 	:	ej tom ruta
+
+200 	:	startpos för markör
+125	:	möjlig startpos för spelare
+100	:	möjlig startpos för fiendelag 1
+75	:	möjlig startpos för fiendelag 2
+
+
+>0 	:	ej tom ruta
+xxxx xxx1	:	å rinner på norrsidan
+xxxx xx1x	:	å rinner på östsidan
+xxxx x1xx	:	å rinner på sydsidan
+xxxx 1xxx	:	å rinner på västsidan
+
+1xxx xxxx 	:	gräs
+
+blått fält:
+
+
+xxxx 1xxx 	:	startpos för markör
+xxxx x1xx 	:	möjlig startpos för spelare
+xxxx xx1x 	:	möjlig startpos för fiendelag 1
+xxxx xxx1 	:	möjlig startpos för fiendelag 2
+

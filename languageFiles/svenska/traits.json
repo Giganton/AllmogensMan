@@ -1,0 +1,60 @@
+{"traits" :
+	[
+		{
+			"ID" : "1", 
+			"name" : "Ökad Styrka", 
+			"description" : "Ökar Styrka med 100."
+		},
+		{
+			"ID" : "2",
+			"name" : "Ökad härdighet",
+			"description" : "Ökar härdighet med 100."
+		},
+		{
+			"ID" : "3",
+			"name" : "Naturligt Urval",
+			"description" : "Attackerar alltid fienden med lägst HP."
+		},
+		{
+			"ID" : "4",
+			"name" : "Jättestark",
+			"description" : "Attacker når genom första raden."
+		},
+		{
+			"ID" : "5",
+			"name" : "Tillväxt",
+			"description" : "Ökar styrka och härdighet med 1."
+		},
+		{
+			"ID" : "6",
+			"name" : "Fäktningsträning",
+			"description" : "Du blockerar en attack och svarar med en motattack."
+		},
+		{
+			"ID" : "7",
+			"name" : "Martyr",
+			"description" : "Om vännen bredvid är i knipa kommer du till undsättning."
+		},
+		{
+			"ID" : "8",
+			"name" : "Blixtnedslag",
+			"description" : "Du har förmågan att frammana blixtar över dina motståndare."
+		},
+		{
+			"ID" : "9",
+			"name" : "Spräng",
+			"description" : "En attack som slår till på motståndaren och dess grannar."
+		},
+		{
+			"ID" : "10",
+			"name" : "Hugg",
+			"description" : "Du hugger till med ditt vapen."
+		},
+		{
+			"ID" : "11",
+			"name" : "LåtsasTrait",
+			"description" : "Låtsastext till en låtsastrait. Lite längre får den vara för att se hur det blir."
+		}
+		
+	]
+}

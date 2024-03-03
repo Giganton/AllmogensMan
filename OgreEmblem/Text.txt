@@ -1,0 +1,24 @@
+Nästa steg:
+	-lägg till statusmeny för squads
+	-lägg till hjälptext till states och visa på kartan, tex "välj vart du vill gå".
+	-lägg till animationer för att röra sig på kartan
+	-lägg till funktionalitet för lag
+	-lägg till rundor
+	-lägg till simpel AI till fiendelaget
+
+
+Småplock:
+	-ta bort arrayen TacticalGrid och ersätt med std::vektor i Squad.
+	-göra alla texturer dynamiskt allokerade i Graphics istället för att tvunget dynamiskt allokera Graphics i sig.
+	-gör om doBattle i battlestage så att den skickar ut en vektor istället för lista.
+	-dela in meny-action-enums i en enum per menytyp. Måste på nåt sätt hantera dessa i perform-funktionen. Flera funktioner?
+	-ta bort textursökvägen från cursor
+
+	
+	case MenuAction::openStatusScreen:
+		goToState(State::statusScreenOpen, true);
+		break;
+
+		
+
+	

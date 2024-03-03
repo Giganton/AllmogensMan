@@ -1,0 +1,12 @@
+{"general" :
+	[
+		{
+			"ID" : "1", 
+			"string" : "level"
+		},
+		{
+			"ID" : "2", 
+			"string" : "squad"
+		}
+	]
+}

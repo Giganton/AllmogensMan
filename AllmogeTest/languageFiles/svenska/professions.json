@@ -1,0 +1,19 @@
+{"profs" :
+	[
+		{
+			"ID" : "1", 
+			"name" : "Kämpe", 
+			"description" : "Hugg och stötar"
+		},
+		{
+			"ID" : "2",
+			"name" : "Trollkarl",
+			"description" : "Trollar fram magiska krafter"
+		},
+		{
+			"ID" : "3",
+			"name" : "Hjälte",
+			"description" : "Mod och styrka"
+		}
+	]
+}

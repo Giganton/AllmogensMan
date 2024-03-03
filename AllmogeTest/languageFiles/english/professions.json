@@ -1,0 +1,19 @@
+{"profs" :
+	[
+		{
+			"ID" : "1", 
+			"name" : "Warrior", 
+			"description" : "Strikes and thrusts"
+		},
+		{
+			"ID" : "2",
+			"name" : "Wizard",
+			"description" : "Conjures forth magical powers"
+		},
+		{
+			"ID" : "3",
+			"name" : "Hero",
+			"description" : "Strength and courage"
+		}
+	]
+}

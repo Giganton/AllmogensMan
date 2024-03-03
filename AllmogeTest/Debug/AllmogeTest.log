@@ -1,0 +1,658 @@
+﻿  Action.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\Action.cpp(268,21): warning C4101: 'k': unreferenced local variable
+C:\Privat\proj\OgEm\OgreEmblem\Action.cpp(268,18): warning C4101: 'j': unreferenced local variable
+  ActionAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\ActionAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ActionAnimation_LightningStrike.cpp
+C:\Privat\proj\OgEm\OgreEmblem\ActionAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ActionAnimation_Martyr.cpp
+C:\Privat\proj\OgEm\OgreEmblem\ActionAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ActionAnimation_Riposte.cpp
+C:\Privat\proj\OgEm\OgreEmblem\ActionAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ActionAnimation_Strike.cpp
+C:\Privat\proj\OgEm\OgreEmblem\ActionAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ActionSetup.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+  ActionTests.cpp
+C:\Privat\proj\OgEm\OgreEmblem\BattleAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  AIController.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AIController.h(13,7): error C2039: 'vector': is not a member of 'std'
+C:\Privat\proj\OgEm\AllmogeTest\predefined C++ types (compiler internal)(417): message : see declaration of 'std'
+C:\Privat\proj\OgEm\OgreEmblem\AIController.h(13,13): error C2143: syntax error: missing ';' before '<'
+C:\Privat\proj\OgEm\OgreEmblem\AIController.h(13,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Privat\proj\OgEm\OgreEmblem\AIController.h(13,80): error C2238: unexpected token(s) preceding ';'
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  AnimationLayer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  AnimationQueue.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  BaseLayer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Battle.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  BattleAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\BattleAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  BattleEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  BattleField.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  BattleManager.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\Manager.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  BattleMap.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  BattleMapVisualData.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  BattleStage.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  Generating Code...
+  Compiling...
+  Blast.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\Blast.cpp(31,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Browsable.cpp
+  Browser.cpp
+C:\Privat\proj\OgEm\OgreEmblem\Browser.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  BrowserAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\BrowserAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  BrowserEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\BrowserAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  BrowserLinker.cpp
+C:\Privat\proj\OgEm\OgreEmblem\Browser.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  BrowseSquadsState.cpp
+C:\Privat\proj\OgEm\OgreEmblem\InputLink.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  CameraController.cpp
+C:\Privat\proj\OgEm\OgreEmblem\CameraController.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  CameraPanner.cpp
+C:\Privat\proj\OgEm\OgreEmblem\CameraPanner.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Camp.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  CampAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\SquadManagerAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  CampEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\Graphics.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  CampLayer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  CampMenuLayer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  CampMenuState.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MenuManager.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ChangeWordSelectionEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Chapter.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  ChapterCollection.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  ConfirmationLayer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ConfirmationMenuEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  ConfirmationState.cpp
+C:\Privat\proj\OgEm\OgreEmblem\InputLink.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  CursorAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\CursorAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  CursorHandler.cpp
+  DeathAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\DeathAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  DialogueButton.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MouseInteractionObject.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  DialogueWindow.cpp
+C:\Privat\proj\OgEm\OgreEmblem\DialogueWindow.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Direction.cpp
+  DraftScreenLayer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  DraftScreenState.cpp
+C:\Privat\proj\OgEm\OgreEmblem\InputLink.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  EditSquadLayer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\BrowserAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  EffectAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\EffectAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  EffectAnimationHandler.cpp
+C:\Privat\proj\OgEm\OgreEmblem\EffectAnimationHandler.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ExperienceBar.cpp
+C:\Privat\proj\OgEm\OgreEmblem\ExperienceBar.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ExperienceGainAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\ExperienceBar.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ExternalStateControls.cpp
+  FadeAnimation_FightSprite.cpp
+C:\Privat\proj\OgEm\OgreEmblem\FightSpriteAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  FencingDrill.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  Fight.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  Fighter.cpp
+  FighterFormation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  Generating Code...
+C:\Privat\proj\OgEm\OgreEmblem\FighterFormation.cpp(43): warning C4715: 'FighterFormation::getSpotPointer': not all control paths return a value
+C:\Privat\proj\OgEm\OgreEmblem\FighterFormation.cpp(92): warning C4715: 'transformCoord': not all control paths return a value
+  Compiling...
+  FightPos.cpp
+  FightResults.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  FightScene.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  FightSpriteAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\FightSpriteAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  FightUtils.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  Flag.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  Formler.cpp
+  Gains.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  GameMaster.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  GraphicalEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\GraphicalEvent.cpp(80,19): warning C4018: '<': signed/unsigned mismatch
+  Graphics.cpp
+C:\Privat\proj\OgEm\OgreEmblem\Graphics.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  GraphicsAssets.cpp
+C:\Privat\proj\OgEm\OgreEmblem\GraphicsAssets.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  GraphicsInterface.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  GraphicsUtils.cpp
+C:\Privat\proj\OgEm\OgreEmblem\GraphicsUtils.h(10,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  HorizontalMenuAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MenuAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  HugeStrength.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  idCreator.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  InitBattleMapEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\Graphics.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  InitDraftScreenEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  InitLevelUpScreenEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  InitSquadNamePickerEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  InputLink.cpp
+C:\Privat\proj\OgEm\OgreEmblem\InputLink.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  LevelUpHandler.cpp
+C:\Privat\proj\OgEm\OgreEmblem\InputLink.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  LevelUpScreenInputEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  LevelUpScreenLayer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  LifeBarAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\LifeBarAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  LightningStrike.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\LightningStrike.cpp(15,18): warning C4101: 'j': unreferenced local variable
+  Manager.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\Manager.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MapAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MapAnimation.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MapAnimation2.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MapAnimation2.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MapAnimationLayer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MapBrowser.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\Manager.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MapCursorAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\CursorAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MapCursorEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\Graphics.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MapEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\Graphics.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MapFightPicker.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\Manager.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MapManager.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\Manager.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MapManagerVisualData.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  MapManagerVisualEventData.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  MapOverlayAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MapOverlayAnimation.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  MapPostMove.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\Manager.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MapSquadMover.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\Manager.h(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MapTile.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\MapTile.cpp(25,16): warning C4018: '<': signed/unsigned mismatch
+  Martyr.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  Menu.cpp
+  MenuEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MenuManager.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MenuManager.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MenuState.cpp
+C:\Privat\proj\OgEm\OgreEmblem\InputLink.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MenuVisualData.cpp
+  MouseInteractionObject.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MouseInteractionObject.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MoveAnimation_FightSprite.cpp
+C:\Privat\proj\OgEm\OgreEmblem\FightSpriteAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MovementAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MovementAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MovementAnimation2.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MovementAnimation2.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MovementDotAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MovementDotAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MovementDotsEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  MovementStage.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  MovementTargetCrossEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  NaturalSelection.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  NextLevelupEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  OgreEmblem.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\Graphics.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...
+C:\Privat\proj\OgEm\OgreEmblem\MapTile.cpp(66): warning C4715: 'MapTile::isRiver': not all control paths return a value
+  Compiling...
+  OpenBattleMapEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  OpenConfirmationEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  OpenDraftScreenEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  OpenLevelUpScreenEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  OpenNamePickerEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  PlusAttack.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  PlusDefense.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  PointerAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\CursorAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Profession.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  ReactionStage.cpp
+  ReloadSquadListEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Riposte.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  RiverAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\RiverAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  RootLink.cpp
+C:\Privat\proj\OgEm\OgreEmblem\InputLink.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  ScreenVisualData.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  SelectSquadEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SelectUnitEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SetAttackTargetEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\Graphics.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Spline.cpp
+C:\Privat\proj\OgEm\OgreEmblem\GraphicsUtils.h(10,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SpriteAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\SpriteAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  SpriteAnimator.cpp
+C:\Privat\proj\OgEm\OgreEmblem\SpriteAnimator.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Squad.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\GraphicsUtils.h(10,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadAI.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  SquadAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\SquadAnimation.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadBrowserLayer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\BrowserAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadDrawer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\SquadDrawer.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadEditorState.cpp
+C:\Privat\proj\OgEm\OgreEmblem\InputLink.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadManager.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  SquadManagerAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\SquadManagerAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadManagerEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\Graphics.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadManagerLayer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\BrowserAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadManagerState.cpp
+C:\Privat\proj\OgEm\OgreEmblem\InputLink.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadMenuLayer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\BrowserAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadMenuState.cpp
+C:\Privat\proj\OgEm\OgreEmblem\InputLink.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadMovedEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadNamePickerLayer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadNamePickerState.cpp
+C:\Privat\proj\OgEm\OgreEmblem\InputLink.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadPos.cpp
+  SquadRepButton.cpp
+C:\Privat\proj\OgEm\OgreEmblem\SquadDrawer.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  SquadRepresentation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\SquadRepresentation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  SquadWindowButton.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MouseInteractionObject.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  StartEnemyTurnEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  StartPlayerTurnEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  StateHandler.cpp
+  StatusAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\StatusAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  StatusScreen.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\StatusScreen.h(6,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Strike.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\Strike.cpp(30,17): warning C4018: '<': signed/unsigned mismatch
+  StringHandler.cpp
+C:\Privat\proj\OgEm\OgreEmblem\StringHandler.cpp(20,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Privat\proj\OgEm\OgreEmblem\StringHandler.cpp(198,17): warning C4018: '<': signed/unsigned mismatch
+C:\Privat\proj\OgEm\OgreEmblem\StringHandler.cpp(348,16): warning C4018: '<': signed/unsigned mismatch
+  StructuredEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Terrain.cpp
+  TestButton.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MouseInteractionObject.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  TextDrawer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TextDrawer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Trait.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  TraitAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\SpriteAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  TraitAnimation_HugeStrength.cpp
+C:\Privat\proj\OgEm\OgreEmblem\SpriteAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  TraitFightContainer.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.cpp(92,8): warning C4101: 'temp': unreferenced local variable
+  TraitTree.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\TraitTree.cpp(22,17): warning C4018: '<': signed/unsigned mismatch
+C:\Privat\proj\OgEm\OgreEmblem\TraitTree.cpp(37,17): warning C4018: '<': signed/unsigned mismatch
+C:\Privat\proj\OgEm\OgreEmblem\TraitTree.cpp(80,16): warning C4018: '<': signed/unsigned mismatch
+C:\Privat\proj\OgEm\OgreEmblem\TraitTree.cpp(107,16): warning C4018: '<': signed/unsigned mismatch
+C:\Privat\proj\OgEm\OgreEmblem\TraitTree.cpp(120,16): warning C4018: '<': signed/unsigned mismatch
+C:\Privat\proj\OgEm\OgreEmblem\TraitTree.cpp(184,16): warning C4018: '<': signed/unsigned mismatch
+C:\Privat\proj\OgEm\OgreEmblem\TraitTree.cpp(207,16): warning C4018: '<': signed/unsigned mismatch
+  TraitTreeAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitTreeAnimation.h(3,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  TraitTreeNode.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  TurnKeeper.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  Generating Code...
+C:\Privat\proj\OgEm\OgreEmblem\TraitTree.cpp(214): warning C4715: 'TraitTree::findNode': not all control paths return a value
+  Compiling...
+  Unit.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  UnitBoughtEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  UnitDetailsWindow.cpp
+C:\Privat\proj\OgEm\OgreEmblem\UnitDetailsWindow.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  UnitKilledEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  UnitListButton.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MouseInteractionObject.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  UnitMenuState.cpp
+C:\Privat\proj\OgEm\OgreEmblem\InputLink.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  UnitPortraitButton.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MouseInteractionObject.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  UnitShop.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  UnitsSwappedEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  VerticalMenuAnimation.cpp
+C:\Privat\proj\OgEm\OgreEmblem\MenuAnimation.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  VictoryAchievedEvent.cpp
+C:\Privat\proj\OgEm\OgreEmblem\AnimationLayer.h(2,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  VisualStack.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+C:\Privat\proj\OgEm\OgreEmblem\BattleMap.h(13,10): fatal error C1083: Cannot open include file: 'SFML/Graphics/Image.hpp': No such file or directory
+  AllmogeTest.cpp
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(18,26): warning C4150: deletion of pointer to incomplete type 'Trait'; no destructor called
+C:\Privat\proj\OgEm\OgreEmblem\TraitFightContainer.h(6): message : see declaration of 'Trait'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(9,1): warning C4099: 'FightEffect': type name first seen using 'class' now seen using 'struct'
+C:\Privat\proj\OgEm\OgreEmblem\FightResults.h(8): message : see declaration of 'FightEffect'
+  Generating Code...

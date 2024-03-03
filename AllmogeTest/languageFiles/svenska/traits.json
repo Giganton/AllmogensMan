@@ -1,0 +1,29 @@
+{"traits" :
+	[
+		{
+			"ID" : "1", 
+			"name" : "Ökad Styrka", 
+			"description" : "Ökar Styrka med 100."
+		},
+		{
+			"ID" : "2",
+			"name" : "Ökad härdighet",
+			"description" : "Ökar härdighet med 100."
+		},
+		{
+			"ID" : "3",
+			"name" : "Naturligt Urval",
+			"description" : "Attackerar alltid fienden med lägst HP."
+		},
+		{
+			"ID" : "4",
+			"name" : "Jättestark",
+			"description" : "Attacker når genom första raden."
+		},
+		{
+			"ID" : "5",
+			"name" : "Tillväxt",
+			"description" : "Ökar styrka och härdighet med 1."
+		}
+	]
+}

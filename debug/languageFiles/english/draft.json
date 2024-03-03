@@ -1,0 +1,20 @@
+{"draft" :
+	[
+		{
+			"ID" : "1", 
+			"string" : "New squad" 
+		},
+		{
+			"ID" : "2", 
+			"string" : "Are you sure that you are done?" 
+		},
+		{
+			"ID" : "3", 
+			"string" : "Do you really want to make " 
+		},
+		{
+			"ID" : "4", 
+			"string" : " the leader of the new squad?" 
+		}
+	]
+}

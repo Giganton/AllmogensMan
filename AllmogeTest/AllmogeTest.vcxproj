@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{859BDBC6-3BEF-4E19-BC37-EFA6770DE5A1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AllmogeTest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectSubType>NativeUnitTestProject</ProjectSubType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(VCInstallDir)UnitTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <UseFullPaths>true</UseFullPaths>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(VCInstallDir)UnitTest\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(VCInstallDir)UnitTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <UseFullPaths>true</UseFullPaths>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(VCInstallDir)UnitTest\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(VCInstallDir)UnitTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <UseFullPaths>true</UseFullPaths>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(VCInstallDir)UnitTest\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(VCInstallDir)UnitTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <UseFullPaths>true</UseFullPaths>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(VCInstallDir)UnitTest\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\OgreEmblem\Action.cpp" />
+    <ClCompile Include="..\OgreEmblem\ActionAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\ActionAnimation_LightningStrike.cpp" />
+    <ClCompile Include="..\OgreEmblem\ActionAnimation_Martyr.cpp" />
+    <ClCompile Include="..\OgreEmblem\ActionAnimation_Riposte.cpp" />
+    <ClCompile Include="..\OgreEmblem\ActionAnimation_Strike.cpp" />
+    <ClCompile Include="..\OgreEmblem\ActionSetup.cpp" />
+    <ClCompile Include="..\OgreEmblem\ActionTests.cpp" />
+    <ClCompile Include="..\OgreEmblem\AIController.cpp" />
+    <ClCompile Include="..\OgreEmblem\AnimationLayer.cpp" />
+    <ClCompile Include="..\OgreEmblem\AnimationQueue.cpp" />
+    <ClCompile Include="..\OgreEmblem\BaseLayer.cpp" />
+    <ClCompile Include="..\OgreEmblem\Battle.cpp" />
+    <ClCompile Include="..\OgreEmblem\BattleAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\BattleEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\BattleField.cpp" />
+    <ClCompile Include="..\OgreEmblem\BattleManager.cpp" />
+    <ClCompile Include="..\OgreEmblem\BattleMap.cpp" />
+    <ClCompile Include="..\OgreEmblem\BattleMapVisualData.cpp" />
+    <ClCompile Include="..\OgreEmblem\BattleStage.cpp" />
+    <ClCompile Include="..\OgreEmblem\Blast.cpp" />
+    <ClCompile Include="..\OgreEmblem\Browsable.cpp" />
+    <ClCompile Include="..\OgreEmblem\Browser.cpp" />
+    <ClCompile Include="..\OgreEmblem\BrowserAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\BrowserEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\BrowserLinker.cpp" />
+    <ClCompile Include="..\OgreEmblem\BrowseSquadsState.cpp" />
+    <ClCompile Include="..\OgreEmblem\CameraController.cpp" />
+    <ClCompile Include="..\OgreEmblem\CameraPanner.cpp" />
+    <ClCompile Include="..\OgreEmblem\Camp.cpp" />
+    <ClCompile Include="..\OgreEmblem\CampAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\CampEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\CampLayer.cpp" />
+    <ClCompile Include="..\OgreEmblem\CampMenuLayer.cpp" />
+    <ClCompile Include="..\OgreEmblem\CampMenuState.cpp" />
+    <ClCompile Include="..\OgreEmblem\ChangeWordSelectionEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\Chapter.cpp" />
+    <ClCompile Include="..\OgreEmblem\ChapterCollection.cpp" />
+    <ClCompile Include="..\OgreEmblem\ConfirmationLayer.cpp" />
+    <ClCompile Include="..\OgreEmblem\ConfirmationMenuEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\ConfirmationState.cpp" />
+    <ClCompile Include="..\OgreEmblem\CursorAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\CursorHandler.cpp" />
+    <ClCompile Include="..\OgreEmblem\DeathAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\DialogueButton.cpp" />
+    <ClCompile Include="..\OgreEmblem\DialogueWindow.cpp" />
+    <ClCompile Include="..\OgreEmblem\Direction.cpp" />
+    <ClCompile Include="..\OgreEmblem\DraftScreenLayer.cpp" />
+    <ClCompile Include="..\OgreEmblem\DraftScreenState.cpp" />
+    <ClCompile Include="..\OgreEmblem\EditSquadLayer.cpp" />
+    <ClCompile Include="..\OgreEmblem\EffectAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\EffectAnimationHandler.cpp" />
+    <ClCompile Include="..\OgreEmblem\ExperienceBar.cpp" />
+    <ClCompile Include="..\OgreEmblem\ExperienceGainAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\ExternalStateControls.cpp" />
+    <ClCompile Include="..\OgreEmblem\FadeAnimation_FightSprite.cpp" />
+    <ClCompile Include="..\OgreEmblem\FencingDrill.cpp" />
+    <ClCompile Include="..\OgreEmblem\Fight.cpp" />
+    <ClCompile Include="..\OgreEmblem\Fighter.cpp" />
+    <ClCompile Include="..\OgreEmblem\FighterFormation.cpp" />
+    <ClCompile Include="..\OgreEmblem\FightPos.cpp" />
+    <ClCompile Include="..\OgreEmblem\FightResults.cpp" />
+    <ClCompile Include="..\OgreEmblem\FightScene.cpp" />
+    <ClCompile Include="..\OgreEmblem\FightSpriteAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\FightUtils.cpp" />
+    <ClCompile Include="..\OgreEmblem\Flag.cpp" />
+    <ClCompile Include="..\OgreEmblem\Formler.cpp" />
+    <ClCompile Include="..\OgreEmblem\Gains.cpp" />
+    <ClCompile Include="..\OgreEmblem\GameMaster.cpp" />
+    <ClCompile Include="..\OgreEmblem\GraphicalEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\Graphics.cpp" />
+    <ClCompile Include="..\OgreEmblem\GraphicsAssets.cpp" />
+    <ClCompile Include="..\OgreEmblem\GraphicsInterface.cpp" />
+    <ClCompile Include="..\OgreEmblem\GraphicsUtils.cpp" />
+    <ClCompile Include="..\OgreEmblem\HorizontalMenuAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\HugeStrength.cpp" />
+    <ClCompile Include="..\OgreEmblem\idCreator.cpp" />
+    <ClCompile Include="..\OgreEmblem\InitBattleMapEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\InitDraftScreenEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\InitLevelUpScreenEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\InitSquadNamePickerEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\InputLink.cpp" />
+    <ClCompile Include="..\OgreEmblem\LevelUpHandler.cpp" />
+    <ClCompile Include="..\OgreEmblem\LevelUpScreenInputEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\LevelUpScreenLayer.cpp" />
+    <ClCompile Include="..\OgreEmblem\LifeBarAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\LightningStrike.cpp" />
+    <ClCompile Include="..\OgreEmblem\Manager.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapAnimation2.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapAnimationLayer.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapBrowser.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapCursorAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapCursorEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapFightPicker.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapManager.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapManagerVisualData.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapManagerVisualEventData.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapOverlayAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapPostMove.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapSquadMover.cpp" />
+    <ClCompile Include="..\OgreEmblem\MapTile.cpp" />
+    <ClCompile Include="..\OgreEmblem\Martyr.cpp" />
+    <ClCompile Include="..\OgreEmblem\Menu.cpp" />
+    <ClCompile Include="..\OgreEmblem\MenuEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\MenuManager.cpp" />
+    <ClCompile Include="..\OgreEmblem\MenuState.cpp" />
+    <ClCompile Include="..\OgreEmblem\MenuVisualData.cpp" />
+    <ClCompile Include="..\OgreEmblem\MouseInteractionObject.cpp" />
+    <ClCompile Include="..\OgreEmblem\MoveAnimation_FightSprite.cpp" />
+    <ClCompile Include="..\OgreEmblem\MovementAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\MovementAnimation2.cpp" />
+    <ClCompile Include="..\OgreEmblem\MovementDotAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\MovementDotsEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\MovementStage.cpp" />
+    <ClCompile Include="..\OgreEmblem\MovementTargetCrossEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\NaturalSelection.cpp" />
+    <ClCompile Include="..\OgreEmblem\NextLevelupEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\OgreEmblem.cpp" />
+    <ClCompile Include="..\OgreEmblem\OpenBattleMapEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\OpenConfirmationEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\OpenDraftScreenEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\OpenLevelUpScreenEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\OpenNamePickerEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\PlusAttack.cpp" />
+    <ClCompile Include="..\OgreEmblem\PlusDefense.cpp" />
+    <ClCompile Include="..\OgreEmblem\PointerAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\Profession.cpp" />
+    <ClCompile Include="..\OgreEmblem\ReactionStage.cpp" />
+    <ClCompile Include="..\OgreEmblem\ReloadSquadListEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\Riposte.cpp" />
+    <ClCompile Include="..\OgreEmblem\RiverAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\RootLink.cpp" />
+    <ClCompile Include="..\OgreEmblem\ScreenVisualData.cpp" />
+    <ClCompile Include="..\OgreEmblem\SelectSquadEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\SelectUnitEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\SetAttackTargetEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\Spline.cpp" />
+    <ClCompile Include="..\OgreEmblem\SpriteAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\SpriteAnimator.cpp" />
+    <ClCompile Include="..\OgreEmblem\Squad.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadAI.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadBrowserLayer.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadDrawer.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadEditorState.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadManager.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadManagerAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadManagerEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadManagerLayer.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadManagerState.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadMenuLayer.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadMenuState.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadMovedEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadNamePickerLayer.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadNamePickerState.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadPos.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadRepButton.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadRepresentation.cpp" />
+    <ClCompile Include="..\OgreEmblem\SquadWindowButton.cpp" />
+    <ClCompile Include="..\OgreEmblem\StartEnemyTurnEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\StartPlayerTurnEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\StateHandler.cpp" />
+    <ClCompile Include="..\OgreEmblem\StatusAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\StatusScreen.cpp" />
+    <ClCompile Include="..\OgreEmblem\Strike.cpp" />
+    <ClCompile Include="..\OgreEmblem\StringHandler.cpp" />
+    <ClCompile Include="..\OgreEmblem\StructuredEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\Terrain.cpp" />
+    <ClCompile Include="..\OgreEmblem\TestButton.cpp" />
+    <ClCompile Include="..\OgreEmblem\TextDrawer.cpp" />
+    <ClCompile Include="..\OgreEmblem\Trait.cpp" />
+    <ClCompile Include="..\OgreEmblem\TraitAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\TraitAnimation_HugeStrength.cpp" />
+    <ClCompile Include="..\OgreEmblem\TraitFightContainer.cpp" />
+    <ClCompile Include="..\OgreEmblem\TraitTree.cpp" />
+    <ClCompile Include="..\OgreEmblem\TraitTreeAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\TraitTreeNode.cpp" />
+    <ClCompile Include="..\OgreEmblem\TurnKeeper.cpp" />
+    <ClCompile Include="..\OgreEmblem\Unit.cpp" />
+    <ClCompile Include="..\OgreEmblem\UnitBoughtEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\UnitDetailsWindow.cpp" />
+    <ClCompile Include="..\OgreEmblem\UnitKilledEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\UnitListButton.cpp" />
+    <ClCompile Include="..\OgreEmblem\UnitMenuState.cpp" />
+    <ClCompile Include="..\OgreEmblem\UnitPortraitButton.cpp" />
+    <ClCompile Include="..\OgreEmblem\UnitShop.cpp" />
+    <ClCompile Include="..\OgreEmblem\UnitsSwappedEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\VerticalMenuAnimation.cpp" />
+    <ClCompile Include="..\OgreEmblem\VictoryAchievedEvent.cpp" />
+    <ClCompile Include="..\OgreEmblem\VisualStack.cpp" />
+    <ClCompile Include="AllmogeTest.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OgreEmblem\OgreEmblem.vcxproj">
+      <Project>{e6329273-ad41-4c50-b3a3-a186f0edd056}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,20 @@
+cs	lägg till ny .h-fil s
+cs	lägg till ny .cpp-fil, includa rätt saker s
+cs	lägg till referenser i allTraits.h och allActions.h/allBoons.h s
+cs	skapa konstruktor s
+	lägg till metod för rätt trigger
+cs	skapa ny trait s
+cs	lägg till trait-tag s
+cs	lägg till boon/reaktions-tag s
+cs	lägg till taggen till skapa-funktionen för boon/reaktions s
+cs	lägg till taggen till skapa-funktionen för traits s
+cs	lägg till taggarna i språkdokumentet för både svenska och engelska
+cs	skapa en .png-fil för ikonen s
+cs	länka asset till .png-filen s
+	om reaktion
+s		skapa ActionAnimation_<namn>.h
+s		skapa ActionAnimation_<namn>.cpp
+s		lägg till referenser i allActionAnimations.h
+s	lägg till.obj-fil till testprojektet
+	skapa test för den nya grejen
+	fixa rätt sökväg för properties-filen

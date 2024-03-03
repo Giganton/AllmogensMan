@@ -1,0 +1,12 @@
+{"general" :
+	[
+		{
+			"ID" : "1", 
+			"string" : "nivå" 
+		},
+		{
+			"ID" : "2", 
+			"string" : "följe" 
+		}
+	]
+}

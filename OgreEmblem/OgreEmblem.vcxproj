@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{E6329273-AD41-4C50-B3A3-A186F0EDD056}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OgreEmblem</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>
+    </LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>
+    </LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;$(ProjectDir)sfml\include</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)sfml\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;user32.lib;gdi32.lib;shell32.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-window-d.lib;sfml-system-d.lib;</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)\sfml\include</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)sfml\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-window-d.lib;sfml-system-d.lib</AdditionalDependencies>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;$(ProjectDir)sfml\include</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)sfml\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;user32.lib;gdi32.lib;shell32.lib;sfml-graphics.lib;sfml-audio.lib;sfml-window.lib;sfml-system.lib;</AdditionalDependencies>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)\sfml\include</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>"C:\Allmogens_man\OgEm\OgreEmblem\sfml\lib"</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-window-d.lib;sfml-system-d.lib</AdditionalDependencies>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Action.cpp" />
+    <ClCompile Include="ActionAnimation.cpp" />
+    <ClCompile Include="ActionAnimation_LightningStrike.cpp" />
+    <ClCompile Include="ActionAnimation_Martyr.cpp" />
+    <ClCompile Include="ActionAnimation_Rage.cpp" />
+    <ClCompile Include="ActionAnimation_Riposte.cpp" />
+    <ClCompile Include="ActionAnimation_Strike.cpp" />
+    <ClCompile Include="ActionTests.cpp" />
+    <ClCompile Include="AllJobs.cpp" />
+    <ClCompile Include="AnimationLayer.cpp" />
+    <ClCompile Include="AnimationQueue.cpp" />
+    <ClCompile Include="ActionSetup.cpp" />
+    <ClCompile Include="Attached.cpp" />
+    <ClCompile Include="BaseLayer.cpp" />
+    <ClCompile Include="Battle.cpp" />
+    <ClCompile Include="BattleAnimation.cpp" />
+    <ClCompile Include="BattleEvent.cpp" />
+    <ClCompile Include="BattleField.cpp" />
+    <ClCompile Include="BattleManager.cpp" />
+    <ClCompile Include="BattleMap.cpp" />
+    <ClCompile Include="BattleMapVisualData.cpp" />
+    <ClCompile Include="BattleStage.cpp" />
+    <ClCompile Include="Blast.cpp" />
+    <ClCompile Include="Boon.cpp" />
+    <ClCompile Include="Browsable.cpp" />
+    <ClCompile Include="Browser.cpp" />
+    <ClCompile Include="BrowserAnimation.cpp" />
+    <ClCompile Include="BrowserEvent.cpp" />
+    <ClCompile Include="BrowserLinker.cpp" />
+    <ClCompile Include="BrowseSquadsState.cpp" />
+    <ClCompile Include="CameraController.cpp" />
+    <ClCompile Include="CameraPanner.cpp" />
+    <ClCompile Include="Camp.cpp" />
+    <ClCompile Include="CampAnimation.cpp" />
+    <ClCompile Include="CampEvent.cpp" />
+    <ClCompile Include="CampLayer.cpp" />
+    <ClCompile Include="CampMenuLayer.cpp" />
+    <ClCompile Include="CampMenuState.cpp" />
+    <ClCompile Include="Career.cpp" />
+    <ClCompile Include="CareerAnimation.cpp" />
+    <ClCompile Include="ChangeWordSelectionEvent.cpp" />
+    <ClCompile Include="Chapter.cpp" />
+    <ClCompile Include="ChapterCollection.cpp" />
+    <ClCompile Include="ConfirmationLayer.cpp" />
+    <ClCompile Include="ConfirmationMenuEvent.cpp" />
+    <ClCompile Include="ConfirmationState.cpp" />
+    <ClCompile Include="CursorAnimation.cpp" />
+    <ClCompile Include="CursorHandler.cpp" />
+    <ClCompile Include="DeathAnimation.cpp" />
+    <ClCompile Include="DeathReaction.cpp" />
+    <ClCompile Include="DialogueButton.cpp" />
+    <ClCompile Include="DialogueWindow.cpp" />
+    <ClCompile Include="Direction.cpp" />
+    <ClCompile Include="DraftScreenLayer.cpp" />
+    <ClCompile Include="DraftScreenState.cpp" />
+    <ClCompile Include="EditSquadLayer.cpp" />
+    <ClCompile Include="EffectAnimation.cpp" />
+    <ClCompile Include="EffectAnimationHandler.cpp" />
+    <ClCompile Include="ExperienceBar.cpp" />
+    <ClCompile Include="ExperienceGainAnimation.cpp" />
+    <ClCompile Include="ExternalStateControls.cpp" />
+    <ClCompile Include="FadeAnimation_FightSprite.cpp" />
+    <ClCompile Include="Fight.cpp" />
+    <ClCompile Include="Fighter.cpp" />
+    <ClCompile Include="FighterFormation.cpp" />
+    <ClCompile Include="FightPos.cpp" />
+    <ClCompile Include="FightResults.cpp" />
+    <ClCompile Include="FightScene.cpp" />
+    <ClCompile Include="FightSpriteAnimation.cpp" />
+    <ClCompile Include="FightUtils.cpp" />
+    <ClCompile Include="Flag.cpp" />
+    <ClCompile Include="Formation.cpp" />
+    <ClCompile Include="Formler.cpp" />
+    <ClCompile Include="Gains.cpp" />
+    <ClCompile Include="GameMaster.cpp" />
+    <ClCompile Include="GiantStrength.cpp" />
+    <ClCompile Include="GraphicalEvent.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="GraphicsAssets.cpp" />
+    <ClCompile Include="GraphicsInterface.cpp" />
+    <ClCompile Include="GraphicsUtils.cpp" />
+    <ClCompile Include="HeavyArmor.cpp" />
+    <ClCompile Include="HorizontalMenuAnimation.cpp" />
+    <ClCompile Include="HugeStrength.cpp" />
+    <ClCompile Include="idCreator.cpp" />
+    <ClCompile Include="IncreaseWepProfBoon.cpp" />
+    <ClCompile Include="InitBattleMapEvent.cpp" />
+    <ClCompile Include="InitDraftScreenEvent.cpp" />
+    <ClCompile Include="InitLevelUpScreenEvent.cpp" />
+    <ClCompile Include="InitSquadNamePickerEvent.cpp" />
+    <ClCompile Include="InputLink.cpp" />
+    <ClCompile Include="InspiringHeroism.cpp" />
+    <ClCompile Include="Job.cpp" />
+    <ClCompile Include="LevelUpHandler.cpp" />
+    <ClCompile Include="LevelUpScreenInputEvent.cpp" />
+    <ClCompile Include="LevelUpScreenLayer.cpp" />
+    <ClCompile Include="LifeBarAnimation.cpp" />
+    <ClCompile Include="LightningStrike.cpp" />
+    <ClCompile Include="MainHelpers.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="MapAnimation.cpp" />
+    <ClCompile Include="MapAnimation2.cpp" />
+    <ClCompile Include="MapAnimationLayer.cpp" />
+    <ClCompile Include="MapBrowser.cpp" />
+    <ClCompile Include="MapCursorAnimation.cpp" />
+    <ClCompile Include="MapCursorEvent.cpp" />
+    <ClCompile Include="MapEvent.cpp" />
+    <ClCompile Include="MapFightPicker.cpp" />
+    <ClCompile Include="MapManager.cpp" />
+    <ClCompile Include="MapManagerVisualEventData.cpp" />
+    <ClCompile Include="MapOverlayAnimation.cpp" />
+    <ClCompile Include="MapPostMove.cpp" />
+    <ClCompile Include="MapSquadMover.cpp" />
+    <ClCompile Include="Martyr.cpp" />
+    <ClCompile Include="MenuEvent.cpp" />
+    <ClCompile Include="MenuManager.cpp" />
+    <ClCompile Include="MenuState.cpp" />
+    <ClCompile Include="MenuVisualData.cpp" />
+    <ClCompile Include="MouseInteractionObject.cpp" />
+    <ClCompile Include="MoveAnimation_FightSprite.cpp" />
+    <ClCompile Include="MovementAnimation2.cpp" />
+    <ClCompile Include="MovementDotAnimation.cpp" />
+    <ClCompile Include="MovementDotsEvent.cpp" />
+    <ClCompile Include="MovementTargetCrossEvent.cpp" />
+    <ClCompile Include="NaturalSelection.cpp" />
+    <ClCompile Include="NextLevelupEvent.cpp" />
+    <ClCompile Include="OpenBattleMapEvent.cpp" />
+    <ClCompile Include="OpenConfirmationEvent.cpp" />
+    <ClCompile Include="OpenDraftScreenEvent.cpp" />
+    <ClCompile Include="OpenLevelUpScreenEvent.cpp" />
+    <ClCompile Include="OpenNamePickerEvent.cpp" />
+    <ClCompile Include="PlusAttack.cpp" />
+    <ClCompile Include="PlusDefense.cpp" />
+    <ClCompile Include="PointerAnimation.cpp" />
+    <ClCompile Include="Rage.cpp" />
+    <ClCompile Include="ReactionStage.cpp" />
+    <ClCompile Include="ReloadSquadListEvent.cpp" />
+    <ClCompile Include="Riposte.cpp" />
+    <ClCompile Include="RiverAnimation.cpp" />
+    <ClCompile Include="RootLink.cpp" />
+    <ClCompile Include="SelectSquadEvent.cpp" />
+    <ClCompile Include="SelectUnitEvent.cpp" />
+    <ClCompile Include="SetAttackTargetEvent.cpp" />
+    <ClCompile Include="ShieldBearer.cpp" />
+    <ClCompile Include="Spline.cpp" />
+    <ClCompile Include="SpriteAnimation.cpp" />
+    <ClCompile Include="SpriteAnimator.cpp" />
+    <ClCompile Include="SquadAnimation.cpp" />
+    <ClCompile Include="SquadNamePickerLayer.cpp" />
+    <ClCompile Include="SquadNamePickerState.cpp" />
+    <ClCompile Include="SquadRepButton.cpp" />
+    <ClCompile Include="SquadWindowButton.cpp" />
+    <ClCompile Include="SquadDrawer.cpp" />
+    <ClCompile Include="SquadEditorState.cpp" />
+    <ClCompile Include="SquadManager.cpp" />
+    <ClCompile Include="SquadManagerAnimation.cpp" />
+    <ClCompile Include="SquadManagerEvent.cpp" />
+    <ClCompile Include="SquadBrowserLayer.cpp" />
+    <ClCompile Include="SquadManagerLayer.cpp" />
+    <ClCompile Include="SquadManagerState.cpp" />
+    <ClCompile Include="SquadMenuLayer.cpp" />
+    <ClCompile Include="SquadMenuState.cpp" />
+    <ClCompile Include="SquadMovedEvent.cpp" />
+    <ClCompile Include="SquadPos.cpp" />
+    <ClCompile Include="SquadRepresentation.cpp" />
+    <ClCompile Include="MapTile.cpp" />
+    <ClCompile Include="MapManagerVisualData.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MovementAnimation.cpp" />
+    <ClCompile Include="MovementStage.cpp" />
+    <ClCompile Include="OgreEmblem.cpp" />
+    <ClCompile Include="Profession.cpp" />
+    <ClCompile Include="ScreenVisualData.cpp" />
+    <ClCompile Include="Squad.cpp" />
+    <ClCompile Include="SquadAI.cpp" />
+    <ClCompile Include="StartEnemyTurnEvent.cpp" />
+    <ClCompile Include="StartPlayerTurnEvent.cpp" />
+    <ClCompile Include="StateHandler.cpp" />
+    <ClCompile Include="StatusAnimation.cpp" />
+    <ClCompile Include="StatusScreen.cpp" />
+    <ClCompile Include="Strike.cpp" />
+    <ClCompile Include="StringHandler.cpp" />
+    <ClCompile Include="StructuredEvent.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="TestButton.cpp" />
+    <ClCompile Include="TextDrawer.cpp" />
+    <ClCompile Include="PassiveBoon.cpp" />
+    <ClCompile Include="Trait.cpp" />
+    <ClCompile Include="TraitAnimation.cpp" />
+    <ClCompile Include="TraitAnimation_HugeStrength.cpp" />
+    <ClCompile Include="TraitTree.cpp" />
+    <ClCompile Include="TraitTreeAnimation.cpp" />
+    <ClCompile Include="TraitTreeNode.cpp" />
+    <ClCompile Include="TraitFightContainer.cpp" />
+    <ClCompile Include="Triggerable.cpp" />
+    <ClCompile Include="TurnKeeper.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="UnitBoughtEvent.cpp" />
+    <ClCompile Include="UnitDetailsWindow.cpp" />
+    <ClCompile Include="UnitKilledEvent.cpp" />
+    <ClCompile Include="UnitListButton.cpp" />
+    <ClCompile Include="UnitMenuState.cpp" />
+    <ClCompile Include="UnitPortraitButton.cpp" />
+    <ClCompile Include="UnitShop.cpp" />
+    <ClCompile Include="UnitsSwappedEvent.cpp" />
+    <ClCompile Include="VerticalMenuAnimation.cpp" />
+    <ClCompile Include="VictoryAchievedEvent.cpp" />
+    <ClCompile Include="VisualStack.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="ActionAnimation.h" />
+    <ClInclude Include="ActionAnimation_Attack.h" />
+    <ClInclude Include="ActionAnimation_LightningStrike.h" />
+    <ClInclude Include="ActionAnimation_Martyr.h" />
+    <ClInclude Include="ActionAnimation_Rage.h" />
+    <ClInclude Include="ActionAnimation_Riposte.h" />
+    <ClInclude Include="ActionAnimation_Strike.h" />
+    <ClInclude Include="ActionSetup.h" />
+    <ClInclude Include="ActionSpecifics.h" />
+    <ClInclude Include="ActionTag.h" />
+    <ClInclude Include="ActionTests.h" />
+    <ClInclude Include="AllActionAnimations.h" />
+    <ClInclude Include="allActions.h" />
+    <ClInclude Include="AllBoons.h" />
+    <ClInclude Include="AllJobs.h" />
+    <ClInclude Include="AnimationLayer.h" />
+    <ClInclude Include="AnimationQueue.h" />
+    <ClInclude Include="AnimationType.h" />
+    <ClInclude Include="Attached.h" />
+    <ClInclude Include="BaseLayer.h" />
+    <ClInclude Include="Battle.h" />
+    <ClInclude Include="BattleAnimation.h" />
+    <ClInclude Include="Boon.h" />
+    <ClInclude Include="BoonTags.h" />
+    <ClInclude Include="Career.h" />
+    <ClInclude Include="CareerAnimation.h" />
+    <ClInclude Include="ChangeWordSelectionEvent.h" />
+    <ClInclude Include="ChapterCollection.h" />
+    <ClInclude Include="BattleEvent.h" />
+    <ClInclude Include="BattleField.h" />
+    <ClInclude Include="BattleMapVisualData.h" />
+    <ClInclude Include="Blast.h" />
+    <ClInclude Include="Browsable.h" />
+    <ClInclude Include="Browser.h" />
+    <ClInclude Include="BrowserAnimation.h" />
+    <ClInclude Include="BrowserBucket.h" />
+    <ClInclude Include="BrowserEvent.h" />
+    <ClInclude Include="BrowserLinker.h" />
+    <ClInclude Include="BrowserVisualData.h" />
+    <ClInclude Include="bStageVisualData.h" />
+    <ClInclude Include="CameraController.h" />
+    <ClInclude Include="CameraPanner.h" />
+    <ClInclude Include="Camp.h" />
+    <ClInclude Include="CampAnimation.h" />
+    <ClInclude Include="CampEvent.h" />
+    <ClInclude Include="CampLayer.h" />
+    <ClInclude Include="CampMenuLayer.h" />
+    <ClInclude Include="CampMenuState.h" />
+    <ClInclude Include="Chapter.h" />
+    <ClInclude Include="ConfirmationLayer.h" />
+    <ClInclude Include="ConfirmationMenuEvent.h" />
+    <ClInclude Include="ConfirmationState.h" />
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="CursorAnimation.h" />
+    <ClInclude Include="CursorHandler.h" />
+    <ClInclude Include="DeathAnimation.h" />
+    <ClInclude Include="DeathReaction.h" />
+    <ClInclude Include="DialogueButton.h" />
+    <ClInclude Include="DialogueWindow.h" />
+    <ClInclude Include="Direction.h" />
+    <ClInclude Include="DraftMouseButtons.h" />
+    <ClInclude Include="DraftScreenLayer.h" />
+    <ClInclude Include="DraftScreenState.h" />
+    <ClInclude Include="EffectAnimation.h" />
+    <ClInclude Include="EffectAnimationHandler.h" />
+    <ClInclude Include="ExperienceBar.h" />
+    <ClInclude Include="ExperienceGainAnimation.h" />
+    <ClInclude Include="ExternalStateControls.h" />
+    <ClInclude Include="FadeAnimation_FightSprite.h" />
+    <ClInclude Include="Fight.h" />
+    <ClInclude Include="Fighter.h" />
+    <ClInclude Include="FighterAnimation.h" />
+    <ClInclude Include="FighterFormation.h" />
+    <ClInclude Include="FightPos.h" />
+    <ClInclude Include="FightResults.h" />
+    <ClInclude Include="BattleStage.h" />
+    <ClInclude Include="FightScene.h" />
+    <ClInclude Include="FightSpriteAnimation.h" />
+    <ClInclude Include="FightUtils.h" />
+    <ClInclude Include="Formation.h" />
+    <ClInclude Include="Formler.h" />
+    <ClInclude Include="Gains.h" />
+    <ClInclude Include="GameMaster.h" />
+    <ClInclude Include="GiantStrength.h" />
+    <ClInclude Include="GraphicalEvent.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="BattleMap.h" />
+    <ClInclude Include="GraphicsAssets.h" />
+    <ClInclude Include="GraphicsInterface.h" />
+    <ClInclude Include="AnimationSignal.h" />
+    <ClInclude Include="GraphicsUtils.h" />
+    <ClInclude Include="BattleManager.h" />
+    <ClInclude Include="ConfirmationMouseButtons.h" />
+    <ClInclude Include="HeavyArmor.h" />
+    <ClInclude Include="HugeStrength.h" />
+    <ClInclude Include="IncreaseWepProfBoon.h" />
+    <ClInclude Include="InitBattleMapEvent.h" />
+    <ClInclude Include="InitConfirmationEvent.h" />
+    <ClInclude Include="InitDraftScreenEvent.h" />
+    <ClInclude Include="InitLevelUpScreenEvent.h" />
+    <ClInclude Include="InitSquadNamePickerEvent.h" />
+    <ClInclude Include="InspiringHeroism.h" />
+    <ClInclude Include="Job.h" />
+    <ClInclude Include="LevelUpData.h" />
+    <ClInclude Include="LevelUpHandler.h" />
+    <ClInclude Include="LevelUpScreenInputEvent.h" />
+    <ClInclude Include="LevelUpScreenLayer.h" />
+    <ClInclude Include="LifeBar.h" />
+    <ClInclude Include="LifeBarAnimation.h" />
+    <ClInclude Include="LightningStrike.h" />
+    <ClInclude Include="MainHelpers.h" />
+    <ClInclude Include="MapAnimationLayer.h" />
+    <ClInclude Include="MapBrowser.h" />
+    <ClInclude Include="MapCursorAnimation.h" />
+    <ClInclude Include="MapCursorEvent.h" />
+    <ClInclude Include="MapFightPicker.h" />
+    <ClInclude Include="MapOverlayAnimation.h" />
+    <ClInclude Include="MapPostMove.h" />
+    <ClInclude Include="MapSquadMover.h" />
+    <ClInclude Include="Martyr.h" />
+    <ClInclude Include="MouseInteractionObject.h" />
+    <ClInclude Include="MouseSignal.h" />
+    <ClInclude Include="MoveAnimation_FightSprite.h" />
+    <ClInclude Include="MovementCrossEvent.h" />
+    <ClInclude Include="MovementDotAnimation.h" />
+    <ClInclude Include="MovementDotsEvent.h" />
+    <ClInclude Include="MovementTargetCrossEvent.h" />
+    <ClInclude Include="NamePickerButtons.h" />
+    <ClInclude Include="NaturalSelection.h" />
+    <ClInclude Include="NextLevelupEvent.h" />
+    <ClInclude Include="OpenBattleMapEvent.h" />
+    <ClInclude Include="MapEvent.h" />
+    <ClInclude Include="OpenConfirmationEvent.h" />
+    <ClInclude Include="OpenDraftScreenEvent.h" />
+    <ClInclude Include="OpenLevelUpScreenEvent.h" />
+    <ClInclude Include="OpenNamePickerEvent.h" />
+    <ClInclude Include="PlusAttack.h" />
+    <ClInclude Include="PlusDefense.h" />
+    <ClInclude Include="PointerAnimation.h" />
+    <ClInclude Include="ProfessionID.h" />
+    <ClInclude Include="HorizontalMenuAnimation.h" />
+    <ClInclude Include="InputLink.h" />
+    <ClInclude Include="Manager.h" />
+    <ClInclude Include="ManagerState.h" />
+    <ClInclude Include="MapAnimation.h" />
+    <ClInclude Include="MapAnimation2.h" />
+    <ClInclude Include="MapCoord.h" />
+    <ClInclude Include="MapManager.h" />
+    <ClInclude Include="MapManagerVisualEventData.h" />
+    <ClInclude Include="MenuEvent.h" />
+    <ClInclude Include="MenuManager.h" />
+    <ClInclude Include="Rage.h" />
+    <ClInclude Include="ReactionStage.h" />
+    <ClInclude Include="ReloadSquadListEvent.h" />
+    <ClInclude Include="Riposte.h" />
+    <ClInclude Include="RiverAnimation.h" />
+    <ClInclude Include="RootLink.h" />
+    <ClInclude Include="SelectSquadEvent.h" />
+    <ClInclude Include="SelectUnitEvent.h" />
+    <ClInclude Include="SetAttackTargetEvent.h" />
+    <ClInclude Include="ShieldBearer.h" />
+    <ClInclude Include="Spline.h" />
+    <ClInclude Include="SpriteAnimation.h" />
+    <ClInclude Include="SpriteAnimator.h" />
+    <ClInclude Include="SquadNamePickerLayer.h" />
+    <ClInclude Include="SquadNamePickerState.h" />
+    <ClInclude Include="SquadRepButton.h" />
+    <ClInclude Include="SquadWindowButton.h" />
+    <ClInclude Include="SquadDrawer.h" />
+    <ClInclude Include="SquadAnimation.h" />
+    <ClInclude Include="SquadManagerMenuState.h" />
+    <ClInclude Include="MenuVisualData.h" />
+    <ClInclude Include="MenuVisualEvent.h" />
+    <ClInclude Include="MovementAnimation2.h" />
+    <ClInclude Include="idCreator.h" />
+    <ClInclude Include="SquadManager.h" />
+    <ClInclude Include="SquadManagerAnimation.h" />
+    <ClInclude Include="SquadManagerCommands.h" />
+    <ClInclude Include="SquadManagerEvent.h" />
+    <ClInclude Include="SquadManagerInitVisuals.h" />
+    <ClInclude Include="SquadManagerLayer.h" />
+    <ClInclude Include="SquadManagerState.h" />
+    <ClInclude Include="CampVisualData.h" />
+    <ClInclude Include="SquadMovedEvent.h" />
+    <ClInclude Include="SquadPos.h" />
+    <ClInclude Include="SquadRepresentation.h" />
+    <ClInclude Include="MapTile.h" />
+    <ClInclude Include="MapManagerVisualData.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MenuAnimation.h" />
+    <ClInclude Include="StartEnemyTurnEvent.h" />
+    <ClInclude Include="StartPlayerTurnEvent.h" />
+    <ClInclude Include="StateHandler.h" />
+    <ClInclude Include="Strike.h" />
+    <ClInclude Include="StringHandler.h" />
+    <ClInclude Include="StructuredEvent.h" />
+    <ClInclude Include="MovementAnimation.h" />
+    <ClInclude Include="MovementStage.h" />
+    <ClInclude Include="mStageVisualData.h" />
+    <ClInclude Include="Flag.h" />
+    <ClInclude Include="Profession.h" />
+    <ClInclude Include="ScreenVisualData.h" />
+    <ClInclude Include="SquadAI.h" />
+    <ClInclude Include="SquadData.h" />
+    <ClInclude Include="StatusAnimation.h" />
+    <ClInclude Include="StatusScreen.h" />
+    <ClInclude Include="tagID.h" />
+    <ClInclude Include="TargetingType.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="TestButton.h" />
+    <ClInclude Include="TextDrawer.h" />
+    <ClInclude Include="PassiveBoon.h" />
+    <ClInclude Include="Trait.h" />
+    <ClInclude Include="TraitAnimation.h" />
+    <ClInclude Include="TraitAnimation_HugeStrength.h" />
+    <ClInclude Include="TraitFightContainer.h" />
+    <ClInclude Include="TraitList.h" />
+    <ClInclude Include="TraitTag.h" />
+    <ClInclude Include="TraitTree.h" />
+    <ClInclude Include="TraitTreeAnimation.h" />
+    <ClInclude Include="TraitTreeNode.h" />
+    <ClInclude Include="Triggerable.h" />
+    <ClInclude Include="TurnKeeper.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="Squad.h" />
+    <ClInclude Include="UnitBoughtEvent.h" />
+    <ClInclude Include="UnitDetailsWindow.h" />
+    <ClInclude Include="UnitKilledEvent.h" />
+    <ClInclude Include="UnitListButton.h" />
+    <ClInclude Include="UnitPortraitButton.h" />
+    <ClInclude Include="UnitRepresentation.h" />
+    <ClInclude Include="UnitShop.h" />
+    <ClInclude Include="UnitsSwappedEvent.h" />
+    <ClInclude Include="UnitStatistics.h" />
+    <ClInclude Include="VerticalMenuAnimation.h" />
+    <ClInclude Include="VictoryAchievedEvent.h" />
+    <ClInclude Include="VisualStack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\knekt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

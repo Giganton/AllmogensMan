@@ -1,0 +1,29 @@
+{"traits" :
+	[
+		{
+			"ID" : "1", 
+			"name" : "Plus Strength", 
+			"description" : "Increases Strength by 100."
+		},
+		{
+			"ID" : "2",
+			"name" : "Plus Defense",
+			"description" : "Increases Defense by 100."
+		},
+		{
+			"ID" : "3",
+			"name" : "Natural Selection",
+			"description" : "Always attacks foe with least HP."
+		},
+		{
+			"ID" : "4",
+			"name" : "Huge Strength",
+			"description" : "Attacks pass through the first row"
+		},
+		{
+			"ID" : "5",
+			"name" : "Gains",
+			"description" : "Increase attack and defense by 1."
+		}
+	]
+}

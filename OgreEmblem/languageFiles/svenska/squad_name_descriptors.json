@@ -1,0 +1,271 @@
+{"descriptors" :
+	[
+		{
+			"ID" : "1", 
+			"string" : "Gula" 
+		},
+		{
+			"ID" : "2", 
+			"string" : "Hemska" 
+		},
+		{
+			"ID" : "3", 
+			"string" : "Röda" 
+		},
+		{
+			"ID" : "4", 
+			"string" : "Lömska" 
+		},
+		{
+			"ID" : "5", 
+			"string" : "Glada" 
+		},
+		{
+			"ID" : "6", 
+			"string" : "Arga" 
+		},
+		{
+			"ID" : "7", 
+			"string" : "Ädla" 
+		},
+		{
+			"ID" : "8", 
+			"string" : "Hungriga" 
+		},
+		{
+			"ID" : "9", 
+			"string" : "Flinka" 
+		},
+		{
+			"ID" : "10", 
+			"string" : "Vassa" 
+		},
+		{
+			"ID" : "11", 
+			"string" : "Olyckliga" 
+		},
+		{
+			"ID" : "12", 
+			"string" : "Lyckliga" 
+		},
+		{
+			"ID" : "13", 
+			"string" : "Nya" 
+		},
+		{
+			"ID" : "14", 
+			"string" : "Gamla" 
+		},
+		{
+			"ID" : "15", 
+			"string" : "Goda" 
+		},
+		{
+			"ID" : "16", 
+			"string" : "Oumbärliga" 
+		},
+		{
+			"ID" : "17", 
+			"string" : "Redliga" 
+		},
+		{
+			"ID" : "18", 
+			"string" : "Tappra" 
+		},
+		{
+			"ID" : "19", 
+			"string" : "Hårdföra" 
+		},
+		{
+			"ID" : "20", 
+			"string" : "Hårdkokta" 
+		},
+		{
+			"ID" : "21", 
+			"string" : "Djärva" 
+		},
+		{
+			"ID" : "21", 
+			"string" : "Kaxiga" 
+		},
+		{
+			"ID" : "22", 
+			"string" : "Orädda" 
+		},
+		{
+			"ID" : "23", 
+			"string" : "Tåliga" 
+		},
+		{
+			"ID" : "24", 
+			"string" : "Svurna" 
+		},
+		{
+			"ID" : "25", 
+			"string" : "Svunna" 
+		},
+		{
+			"ID" : "26", 
+			"string" : "Ståtliga" 
+		},
+		{
+			"ID" : "27", 
+			"string" : "Blodiga" 
+		},
+		{
+			"ID" : "28", 
+			"string" : "Bittra" 
+		},
+		{
+			"ID" : "29", 
+			"string" : "Obesegrade" 
+		},
+		{
+			"ID" : "30", 
+			"string" : "Enastående" 
+		}
+	],
+"subjects" :
+	[
+		{
+			"ID" : "1", 
+			"string_1" : "Vargar",
+			"string_2" : "Vargarna" 
+		},
+		{
+			"ID" : "2", 
+			"string_1" : "Yxor",
+			"string_2" : "Yxorna" 
+		},
+		{
+			"ID" : "3", 
+			"string_1" : "Gossar",
+			"string_2" : "Gossarna" 
+		},
+		{
+			"ID" : "4", 
+			"string_1" : "Härjare",
+			"string_2" : "Härjarna" 
+		},
+		{
+			"ID" : "5", 
+			"string_1" : "Odjur",
+			"string_2" : "Odjuren" 
+		},
+		{
+			"ID" : "6", 
+			"string_1" : "Vänner",
+			"string_2" : "Vännerna" 
+		},
+		{
+			"ID" : "7", 
+			"string_1" : "Redskap",
+			"string_2" : "Redskapen"
+		},
+		{
+			"ID" : "8", 
+			"string_1" : "Hökar",
+			"string_2" : "Hökarna"
+		},
+		{
+			"ID" : "9", 
+			"string_1" : "Oxar",
+			"string_2" : "Oxarna"
+		},
+		{
+			"ID" : "10", 
+			"string_1" : "Uslingar",
+			"string_2" : "Uslingarna"
+		},
+		{
+			"ID" : "11", 
+			"string_1" : "Skurkar",
+			"string_2" : "Skurkarna"
+		},
+		{
+			"ID" : "12", 
+			"string_1" : "Hjältar",
+			"string_2" : "Hjältarna"
+		},
+		{
+			"ID" : "13", 
+			"string_1" : "Korpar",
+			"string_2" : "Korparna"
+		},
+		{
+			"ID" : "14", 
+			"string_1" : "Vildar",
+			"string_2" : "Vildarna"
+		},
+		{
+			"ID" : "15", 
+			"string_1" : "Drängar",
+			"string_2" : "Drängarna"
+		},
+		{
+			"ID" : "16", 
+			"string_1" : "Riddare",
+			"string_2" : "Riddarna"
+		},
+		{
+			"ID" : "17", 
+			"string_1" : "Stjärnor",
+			"string_2" : "Stjärnorna"
+		},
+		{
+			"ID" : "18", 
+			"string_1" : "Vålnader",
+			"string_2" : "Vålnaderna"
+		},
+		{
+			"ID" : "19", 
+			"string_1" : "Kämpar",
+			"string_2" : "Kämparna"
+		},
+		{
+			"ID" : "20", 
+			"string_1" : "Bjässar",
+			"string_2" : "Bjässarna"
+		},
+		{
+			"ID" : "21", 
+			"string_1" : "Hejare",
+			"string_2" : "Hejarna"
+		},
+		{
+			"ID" : "22", 
+			"string_1" : "Drömmare",
+			"string_2" : "Drömmarna"
+		},
+		{
+			"ID" : "23", 
+			"string_1" : "Lejon",
+			"string_2" : "Lejonen"
+		},
+		{
+			"ID" : "24", 
+			"string_1" : "Hejdukar",
+			"string_2" : "Hejdukarna"
+		},
+		{
+			"ID" : "25", 
+			"string_1" : "Busar",
+			"string_2" : "Busarna"
+		},
+		{
+			"ID" : "26", 
+			"string_1" : "Rövare",
+			"string_2" : "Rövarna"
+		},
+		{
+			"ID" : "27", 
+			"string_1" : "Jönsar",
+			"string_2" : "Jönsarna"
+		},
+		{
+			"ID" : "28", 
+			"string_1" : "Skojare",
+			"string_2" : "Skojarna"
+		}
+	]
+}

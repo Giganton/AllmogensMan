@@ -1,0 +1,115 @@
+{
+	"descriptors": [
+		{
+			"ID": "1",
+			"string": "Yellow"
+		},
+		{
+			"ID": "2",
+			"string": "Horrible"
+		},
+		{
+			"ID": "3",
+			"string": "Red"
+		},
+		{
+			"ID": "4",
+			"string": "Sinister"
+		},
+		{
+			"ID": "5",
+			"string": "Happy"
+		},
+		{
+			"ID": "6",
+			"string": "Mad"
+		},
+		{
+			"ID": "7",
+			"string": "Noble"
+		},
+		{
+			"ID": "8",
+			"string": "Hungry"
+		},
+		{
+			"ID": "9",
+			"string": "Deft"
+		},
+		{
+			"ID": "10",
+			"string": "Sharp"
+		},
+		{
+			"ID": "11",
+			"string": "Unhappy"
+		},
+		{
+			"ID": "12",
+			"string": "Lucky"
+		},
+		{
+			"ID": "13",
+			"string": "New"
+		},
+		{
+			"ID": "14",
+			"string": "Old"
+		},
+		{
+			"ID": "15",
+			"string": "Good"
+		}
+	],
+"subjects" :
+	[
+		{
+			"ID" : "1", 
+			"string" : "Wolves"
+		},
+		{
+			"ID" : "2", 
+			"string" : "Axes"
+		},
+		{
+			"ID" : "3", 
+			"string" : "Boys"
+		},
+		{
+			"ID" : "4", 
+			"string" : "Ravagers"
+		},
+		{
+			"ID" : "5", 
+			"string" : "Beasts"
+		},
+		{
+			"ID" : "6", 
+			"string" : "Friends"
+		},
+		{
+			"ID" : "7", 
+			"string" : "Tools"
+		},
+		{
+			"ID" : "8", 
+			"string" : "Hawks"
+		},
+		{
+			"ID" : "9", 
+			"string" : "Oxes"
+		},
+		{
+			"ID" : "10", 
+			"string" : "Villains"
+		},
+		{
+			"ID" : "11", 
+			"string" : "Wretches"
+		},
+		{
+			"ID" : "12", 
+			"string" : "Heroes"
+		}
+	]
+}

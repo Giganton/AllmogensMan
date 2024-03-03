@@ -1,0 +1,1624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{bde0f330-40c0-48a6-affa-02e1b411f4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{30585718-ef53-4ca2-9672-8b0fd45d4df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Unit">
+      <UniqueIdentifier>{26985b97-006f-4a5c-8a1d-407e4e6c9d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unit">
+      <UniqueIdentifier>{17bf32cd-066c-40b1-9601-9c2b42daeeff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{1fd24ee1-d2b3-4fb4-a9b0-60353907ff54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{ca9cad05-2bd5-4935-810c-3732cc8a7dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Animation handlers">
+      <UniqueIdentifier>{0e52a31e-489c-4241-9c8d-df3d416d7447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Animation handler">
+      <UniqueIdentifier>{9cbb0c1c-abff-4912-b1ce-32b4a36b6212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget">
+      <UniqueIdentifier>{0f2f34eb-4d8c-4346-838a-433c833d1b51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Grafik">
+      <UniqueIdentifier>{0527373d-f915-49d1-afed-300e23582eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Grafik\Målare">
+      <UniqueIdentifier>{5c543afc-2c0e-48cf-b92e-ccb6589b2e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget">
+      <UniqueIdentifier>{fbd90dce-1c22-4564-aaf6-43e4a51d03f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Grafik">
+      <UniqueIdentifier>{f8beb56a-9277-43b3-a2df-c2b38061cae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Grafik\Målare">
+      <UniqueIdentifier>{a3c49805-1939-456c-9a8c-57f912dd0ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Map">
+      <UniqueIdentifier>{9e16e0d2-9c87-4e0b-8eb6-e3a7a1a7958f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Map">
+      <UniqueIdentifier>{931d543d-c44f-46b7-a09a-442cbb3a9b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statusskärmen">
+      <UniqueIdentifier>{09d0b783-ddd2-47f0-8793-b8b9b8c1d889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Statusskärmen">
+      <UniqueIdentifier>{ee134319-cc30-4fc1-af6d-eb24190e35f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lägret">
+      <UniqueIdentifier>{9373a4de-3a99-4adc-81d2-f77c433e7ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lägret">
+      <UniqueIdentifier>{f2103f39-6fab-4693-bfc7-99573fb75463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Browser">
+      <UniqueIdentifier>{40c3f744-41fd-4cd4-90be-01d66f4b0750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Browser\Grafik">
+      <UniqueIdentifier>{a242ef4c-906e-4c0a-8f4c-7f1f40280fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Browser">
+      <UniqueIdentifier>{9b7ff7b2-2bf3-4417-81d0-d2f83725f054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Browser\Grafik">
+      <UniqueIdentifier>{4cb068a2-fa03-407f-bc63-891d2f70b49c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lägret\Grafik">
+      <UniqueIdentifier>{1d8098da-f2c1-4554-8125-74cbc04252cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Meny">
+      <UniqueIdentifier>{e35fcb80-5c6d-465b-b7e8-89c649770d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Meny">
+      <UniqueIdentifier>{f53fac12-4f97-47af-b983-00ac17719cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lägret\SquadManStates">
+      <UniqueIdentifier>{acca63bc-d595-49c5-abfb-a3b9ae34e77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lägret\SquadManStates">
+      <UniqueIdentifier>{ee2e0af6-b795-453e-801c-b25a04a29515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lägret\Grafik">
+      <UniqueIdentifier>{68c31e00-9d58-4403-b540-4b92341c15e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lägret\Grafik\Lager">
+      <UniqueIdentifier>{ee0ec166-e305-49f0-bc66-6a10f0e5ed4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Grafik\event">
+      <UniqueIdentifier>{090daf7d-603d-45e1-9e06-8a637e617ece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Grafik\event">
+      <UniqueIdentifier>{acf3ded1-af89-45c7-9357-d0cce22e0723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cursor">
+      <UniqueIdentifier>{4a96532d-b0a8-4e37-8526-4f25bd319616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Grafik\Målare\lager">
+      <UniqueIdentifier>{1c500800-c021-4d16-9c96-ced19c9eb75e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Grafik\NewFilter1">
+      <UniqueIdentifier>{460256ba-4a27-4cb0-96ea-841827bb6479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Assetcontainers">
+      <UniqueIdentifier>{587408b4-2a9e-4a2f-bc27-81b91de32fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Grafik\Målare\Lager">
+      <UniqueIdentifier>{63b676db-9c13-4dab-817c-a3b0d9f7c263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{ca1c9b73-b10c-411d-b110-4d229827d79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{4bc5d194-5b59-40c3-86c1-4edeeaf28dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Strid">
+      <UniqueIdentifier>{b8f2b279-7a34-48b0-92a3-6911f123af6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Strid">
+      <UniqueIdentifier>{f1be20b2-5d61-4878-a96c-dc1e8266f32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Map\SystemInstanser">
+      <UniqueIdentifier>{080bc722-6b85-4803-8cd0-d9e768cb3556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Map\SystemInstanser\Kartstyrare">
+      <UniqueIdentifier>{25b072b9-9913-4678-9f6a-a1349a8d577e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Map\SystemInstanser">
+      <UniqueIdentifier>{0f503f39-a9b2-42b1-9aae-e5c88a3e0940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Map\SystemInstanser\Kartstyrare">
+      <UniqueIdentifier>{da24d1f8-f987-41b7-80fa-8a7694ddafc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\AssetContainers">
+      <UniqueIdentifier>{1b6b4322-08fd-48fe-91e9-91285c2a6b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Grafik\event\levelup">
+      <UniqueIdentifier>{afee6310-2da0-4279-b721-046848b6b4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Grafik\event\levelup">
+      <UniqueIdentifier>{b9f90383-4292-4319-bcbb-9e587b60b3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Grafik\Målare\AcionAnimations">
+      <UniqueIdentifier>{53cf7da8-47ed-4373-b885-ff5f61a9b500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Grafik\Målare\ActionAnimations">
+      <UniqueIdentifier>{84f4a9de-fad4-4fe4-9ff5-fb4148a5445f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chapter">
+      <UniqueIdentifier>{6702e776-32b0-4e07-9719-86874a8973ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chapter\Battle">
+      <UniqueIdentifier>{b4c5dfbf-cc54-440d-acfc-44e9c216bcfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chapter">
+      <UniqueIdentifier>{10797e54-c5ca-41d7-b500-c7e3aac1d5eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chapter\Battle">
+      <UniqueIdentifier>{4af6d6f3-2c2c-40d2-9bdc-3e278a8c4aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drafting">
+      <UniqueIdentifier>{2007563d-ec86-4961-8591-24d186c664ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drafting\Graphics">
+      <UniqueIdentifier>{b1ee472e-6653-45be-886c-05a672695a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drafting\Graphics\Event">
+      <UniqueIdentifier>{829188cb-2837-4469-b01a-491d02168cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drafting">
+      <UniqueIdentifier>{00686a45-57fc-423e-adb8-36cf903ae8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drafting\Graphics">
+      <UniqueIdentifier>{fb2189a5-b2e3-4ca6-bbb2-54ab2abd2c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drafting\Graphics\Events">
+      <UniqueIdentifier>{7119090f-5974-49c6-8afa-035d19d76474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Animation handlers\Drawers">
+      <UniqueIdentifier>{f282b0b0-48b4-4679-b481-633c57e758cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Animation handler\Drawers">
+      <UniqueIdentifier>{79d73e09-ef67-4f15-87a6-4e99a23bc211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Meny\confirmation">
+      <UniqueIdentifier>{8d7e7df8-5df0-4c83-9fee-44c1f7e3322e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Meny\confirmation">
+      <UniqueIdentifier>{c97fd429-e5cf-4088-ae87-17d43db8b198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Grafik\Målare\EffectAnimation">
+      <UniqueIdentifier>{a3836925-8b0a-4f35-bd58-0ec90cdd3a1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Grafik\Målare\EffectAnimation">
+      <UniqueIdentifier>{07f76a77-0c40-4b28-9977-593824b28968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Grafik\Målare\ActionAnimations\SpriteAnimations">
+      <UniqueIdentifier>{12eff94d-0fec-456f-bdf6-e30ef08029d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Grafik\Målare\AcionAnimations\SpriteAnimations">
+      <UniqueIdentifier>{93015dff-1b84-4a86-b68f-3f03fd596644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Strid\UnitProgressionStructure">
+      <UniqueIdentifier>{3a296179-f24f-4d69-92ef-5f7e3163c79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper">
+      <UniqueIdentifier>{f8ae3149-90a3-4bf9-94b9-ce6d1c65afe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\Warrior">
+      <UniqueIdentifier>{876f5579-bde4-4d3e-b25d-e540a659afa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\General">
+      <UniqueIdentifier>{97ecdf8f-e985-4f2c-9db4-25d2eed3d566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\Ranger">
+      <UniqueIdentifier>{d8733905-c777-4d6c-8e57-8e342938fc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Strid\UnitProgressionStructure\Boons">
+      <UniqueIdentifier>{20fcf821-e6b0-43e9-bfb9-084bb887f0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Strid\UnitProgressionStructure\Actions">
+      <UniqueIdentifier>{0728b2bb-9585-4878-8ce9-2cb309157984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stridsläget\Strid\UnitProgressionStructure\Traits">
+      <UniqueIdentifier>{c97f8ecd-05c2-4659-9aa3-f7069ccfb27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Strid\UnitProgressionStructure">
+      <UniqueIdentifier>{e5656b6f-9db4-4cf2-b6e4-52570cfb8b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper">
+      <UniqueIdentifier>{148fed86-cd45-4e93-9d56-e0b59d3134c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\General">
+      <UniqueIdentifier>{146262df-5eae-421f-9835-31d8f1b64da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\Warrior">
+      <UniqueIdentifier>{93c29ffb-d996-4d0b-a483-17069ee2bd05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\Ranger">
+      <UniqueIdentifier>{a496afec-16eb-48ae-8016-107c7b45bb85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Strid\UnitProgressionStructure\Actions">
+      <UniqueIdentifier>{e6160197-0951-4023-a8f7-8dbfbbd6e8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Strid\UnitProgressionStructure\Boons">
+      <UniqueIdentifier>{0493333b-fb53-4881-a162-09c913b66970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stridsläget\Strid\UnitProgressionStructure\Traits">
+      <UniqueIdentifier>{c48e8428-9cb3-419e-b42a-2dad3bea162c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OgreEmblem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Profession.cpp">
+      <Filter>Source Files\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Squad.cpp">
+      <Filter>Source Files\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMap.cpp">
+      <Filter>Source Files\Stridsläget\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTile.cpp">
+      <Filter>Source Files\Stridsläget\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMaster.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorHandler.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files\Stridsläget\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Flag.cpp">
+      <Filter>Source Files\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationQueue.cpp">
+      <Filter>Source Files\Graphics\Animation handler</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsUtils.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementAnimation2.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare</Filter>
+    </ClCompile>
+    <ClCompile Include="MapAnimation2.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare</Filter>
+    </ClCompile>
+    <ClCompile Include="MapAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManagerVisualData.cpp">
+      <Filter>Source Files\Stridsläget\Grafik</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraPanner.cpp">
+      <Filter>Source Files\Stridsläget\Grafik</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManagerVisualEventData.cpp">
+      <Filter>Source Files\Stridsläget\Grafik</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadRepresentation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadAI.cpp">
+      <Filter>Source Files\Stridsläget</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnKeeper.cpp">
+      <Filter>Source Files\Stridsläget</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMapVisualData.cpp">
+      <Filter>Source Files\Stridsläget\Grafik</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementStage.cpp">
+      <Filter>Source Files\Stridsläget</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusAnimation.cpp">
+      <Filter>Source Files\Statusskärmen</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenVisualData.cpp">
+      <Filter>Source Files\Statusskärmen</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusScreen.cpp">
+      <Filter>Source Files\Statusskärmen</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadManager.cpp">
+      <Filter>Source Files\Lägret</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowserAnimation.cpp">
+      <Filter>Source Files\Browser\Grafik</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowserEvent.cpp">
+      <Filter>Source Files\Browser\Grafik</Filter>
+    </ClCompile>
+    <ClCompile Include="Browser.cpp">
+      <Filter>Source Files\Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicalEvent.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualStack.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLink.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Meny</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuVisualData.cpp">
+      <Filter>Source Files\Meny</Filter>
+    </ClCompile>
+    <ClCompile Include="HorizontalMenuAnimation.cpp">
+      <Filter>Source Files\Meny</Filter>
+    </ClCompile>
+    <ClCompile Include="VerticalMenuAnimation.cpp">
+      <Filter>Source Files\Meny</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadBrowserLayer.cpp">
+      <Filter>Source Files\Lägret\Grafik\Lager</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadMenuLayer.cpp">
+      <Filter>Source Files\Lägret\Grafik\Lager</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadManagerLayer.cpp">
+      <Filter>Source Files\Lägret\Grafik\Lager</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowseSquadsState.cpp">
+      <Filter>Source Files\Lägret\SquadManStates</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadMenuState.cpp">
+      <Filter>Source Files\Lägret\SquadManStates</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadManagerState.cpp">
+      <Filter>Source Files\Lägret\SquadManStates</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadEditorState.cpp">
+      <Filter>Source Files\Lägret\SquadManStates</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadManagerAnimation.cpp">
+      <Filter>Source Files\Lägret\Grafik</Filter>
+    </ClCompile>
+    <ClCompile Include="EditSquadLayer.cpp">
+      <Filter>Source Files\Lägret\Grafik\Lager</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowserLinker.cpp">
+      <Filter>Source Files\Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="Browsable.cpp">
+      <Filter>Source Files\Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Source Files\Lägret\SquadManStates</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitMenuState.cpp">
+      <Filter>Source Files\Lägret\SquadManStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Camp.cpp">
+      <Filter>Source Files\Lägret</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>Source Files\Meny</Filter>
+    </ClCompile>
+    <ClCompile Include="CampMenuState.cpp">
+      <Filter>Source Files\Lägret</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationLayer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CampMenuLayer.cpp">
+      <Filter>Source Files\Lägret\Grafik\Lager</Filter>
+    </ClCompile>
+    <ClCompile Include="StructuredEvent.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CampEvent.cpp">
+      <Filter>Source Files\Lägret\Grafik</Filter>
+    </ClCompile>
+    <ClCompile Include="CampLayer.cpp">
+      <Filter>Source Files\Lägret\Grafik\Lager</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadManagerEvent.cpp">
+      <Filter>Source Files\Lägret\Grafik</Filter>
+    </ClCompile>
+    <ClCompile Include="CampAnimation.cpp">
+      <Filter>Source Files\Lägret\Grafik</Filter>
+    </ClCompile>
+    <ClCompile Include="idCreator.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="InitBattleMapEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Source Files\Stridsläget\Map\SystemInstanser\Kartstyrare</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBrowser.cpp">
+      <Filter>Source Files\Stridsläget\Map\SystemInstanser\Kartstyrare</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLayer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenBattleMapEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorAnimation.cpp">
+      <Filter>Source Files\Graphics\Animation handler</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerAnimation.cpp">
+      <Filter>Source Files\Browser\Grafik</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCursorAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare</Filter>
+    </ClCompile>
+    <ClCompile Include="MapCursorEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuEvent.cpp">
+      <Filter>Source Files\Meny</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSquadMover.cpp">
+      <Filter>Source Files\Stridsläget\Map\SystemInstanser\Kartstyrare</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementDotsEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementTargetCrossEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleField.cpp">
+      <Filter>Source Files\Stridsläget\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadMovedEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPostMove.cpp">
+      <Filter>Source Files\Stridsläget\Map\SystemInstanser\Kartstyrare</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementDotAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare</Filter>
+    </ClCompile>
+    <ClCompile Include="MapFightPicker.cpp">
+      <Filter>Source Files\Stridsläget\Map\SystemInstanser\Kartstyrare</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleManager.cpp">
+      <Filter>Source Files\Stridsläget</Filter>
+    </ClCompile>
+    <ClCompile Include="SetAttackTargetEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfirmationMenuEvent.cpp">
+      <Filter>Source Files\Meny</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="MapAnimationLayer.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\Lager</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimator.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Direction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="RiverAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitKilledEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="StartPlayerTurnEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="StartEnemyTurnEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files\Stridsläget\Strid</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleStage.cpp">
+      <Filter>Source Files\Stridsläget\Strid</Filter>
+    </ClCompile>
+    <ClCompile Include="FightResults.cpp">
+      <Filter>Source Files\Stridsläget\Strid</Filter>
+    </ClCompile>
+    <ClCompile Include="Fight.cpp">
+      <Filter>Source Files\Stridsläget\Strid</Filter>
+    </ClCompile>
+    <ClCompile Include="Fighter.cpp">
+      <Filter>Source Files\Stridsläget\Strid</Filter>
+    </ClCompile>
+    <ClCompile Include="ExperienceBar.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare</Filter>
+    </ClCompile>
+    <ClCompile Include="ExperienceGainAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare</Filter>
+    </ClCompile>
+    <ClCompile Include="Formler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelUpHandler.cpp">
+      <Filter>Source Files\Stridsläget\Map\SystemInstanser</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenLevelUpScreenEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelUpScreenLayer.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\Lager</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHandler.cpp">
+      <Filter>Source Files\Graphics\AssetContainers</Filter>
+    </ClCompile>
+    <ClCompile Include="TraitTreeNode.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper</Filter>
+    </ClCompile>
+    <ClCompile Include="TraitTree.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper</Filter>
+    </ClCompile>
+    <ClCompile Include="InitLevelUpScreenEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event\levelup</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelUpScreenInputEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event\levelup</Filter>
+    </ClCompile>
+    <ClCompile Include="NextLevelupEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event\levelup</Filter>
+    </ClCompile>
+    <ClCompile Include="TraitTreeAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\Lager</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusAttack.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\General</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusDefense.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\General</Filter>
+    </ClCompile>
+    <ClCompile Include="HugeStrength.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="FighterFormation.cpp">
+      <Filter>Source Files\Stridsläget\Strid</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadPos.cpp">
+      <Filter>Source Files\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Strike.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Blast.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="NaturalSelection.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\Ranger</Filter>
+    </ClCompile>
+    <ClCompile Include="TraitFightContainer.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper</Filter>
+    </ClCompile>
+    <ClCompile Include="FightUtils.cpp">
+      <Filter>Source Files\Stridsläget\Strid</Filter>
+    </ClCompile>
+    <ClCompile Include="Gains.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\General</Filter>
+    </ClCompile>
+    <ClCompile Include="LightningStrike.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionAnimation_Strike.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\ActionAnimations</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\ActionAnimations</Filter>
+    </ClCompile>
+    <ClCompile Include="FightPos.cpp">
+      <Filter>Source Files\Stridsläget\Strid</Filter>
+    </ClCompile>
+    <ClCompile Include="TraitAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\ActionAnimations</Filter>
+    </ClCompile>
+    <ClCompile Include="TraitAnimation_HugeStrength.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\ActionAnimations</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionAnimation_LightningStrike.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\ActionAnimations</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>Source Files\Chapter\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter.cpp">
+      <Filter>Source Files\Chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="ChapterCollection.cpp">
+      <Filter>Source Files\Chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="VictoryAchievedEvent.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\event</Filter>
+    </ClCompile>
+    <ClCompile Include="MapOverlayAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenDraftScreenEvent.cpp">
+      <Filter>Source Files\Drafting\Graphics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="DraftScreenState.cpp">
+      <Filter>Source Files\Drafting</Filter>
+    </ClCompile>
+    <ClCompile Include="DraftScreenLayer.cpp">
+      <Filter>Source Files\Drafting\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseInteractionObject.cpp">
+      <Filter>Source Files\Drafting</Filter>
+    </ClCompile>
+    <ClCompile Include="TestButton.cpp">
+      <Filter>Source Files\Drafting\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="InitDraftScreenEvent.cpp">
+      <Filter>Source Files\Drafting\Graphics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitListButton.cpp">
+      <Filter>Source Files\Drafting\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadDrawer.cpp">
+      <Filter>Source Files\Graphics\Animation handler\Drawers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextDrawer.cpp">
+      <Filter>Source Files\Graphics\Animation handler\Drawers</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsAssets.cpp">
+      <Filter>Source Files\Stridsläget\Grafik</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitDetailsWindow.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitPortraitButton.cpp">
+      <Filter>Source Files\Drafting\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadWindowButton.cpp">
+      <Filter>Source Files\Drafting</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadRepButton.cpp">
+      <Filter>Source Files\Drafting\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectUnitEvent.cpp">
+      <Filter>Source Files\Drafting\Graphics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectSquadEvent.cpp">
+      <Filter>Source Files\Drafting\Graphics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitsSwappedEvent.cpp">
+      <Filter>Source Files\Drafting\Graphics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitShop.cpp">
+      <Filter>Source Files\Drafting</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitBoughtEvent.cpp">
+      <Filter>Source Files\Drafting\Graphics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfirmationLayer.cpp">
+      <Filter>Source Files\Meny\confirmation</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfirmationState.cpp">
+      <Filter>Source Files\Meny\confirmation</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenConfirmationEvent.cpp">
+      <Filter>Source Files\Meny\confirmation</Filter>
+    </ClCompile>
+    <ClCompile Include="ReloadSquadListEvent.cpp">
+      <Filter>Source Files\Drafting\Graphics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogueButton.cpp">
+      <Filter>Source Files\Meny</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadNamePickerState.cpp">
+      <Filter>Source Files\Drafting</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenNamePickerEvent.cpp">
+      <Filter>Source Files\Drafting\Graphics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="SquadNamePickerLayer.cpp">
+      <Filter>Source Files\Drafting\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="InitSquadNamePickerEvent.cpp">
+      <Filter>Source Files\Drafting\Graphics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogueWindow.cpp">
+      <Filter>Source Files\Meny</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeWordSelectionEvent.cpp">
+      <Filter>Source Files\Drafting\Graphics\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="StateHandler.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RootLink.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalStateControls.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectAnimationHandler.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\EffectAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\EffectAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeBarAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\EffectAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Riposte.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionAnimation_Riposte.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\ActionAnimations</Filter>
+    </ClCompile>
+    <ClCompile Include="Martyr.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionAnimation_Martyr.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\ActionAnimations</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\ActionAnimations\SpriteAnimations</Filter>
+    </ClCompile>
+    <ClCompile Include="FightSpriteAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\ActionAnimations\SpriteAnimations</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeAnimation_FightSprite.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\ActionAnimations\SpriteAnimations</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveAnimation_FightSprite.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\ActionAnimations\SpriteAnimations</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactionStage.cpp">
+      <Filter>Source Files\Stridsläget\Strid</Filter>
+    </ClCompile>
+    <ClCompile Include="FightScene.cpp">
+      <Filter>Source Files\Stridsläget\Strid</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionSetup.cpp">
+      <Filter>Source Files\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="MainHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AllJobs.cpp">
+      <Filter>Source Files\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Job.cpp">
+      <Filter>Source Files\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="PassiveBoon.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper</Filter>
+    </ClCompile>
+    <ClCompile Include="Career.cpp">
+      <Filter>Source Files\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="CareerAnimation.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\Lager</Filter>
+    </ClCompile>
+    <ClCompile Include="Trait.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Traits</Filter>
+    </ClCompile>
+    <ClCompile Include="Triggerable.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="GiantStrength.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClCompile>
+    <ClCompile Include="Boon.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldBearer.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClCompile>
+    <ClCompile Include="IncreaseWepProfBoon.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClCompile>
+    <ClCompile Include="HeavyArmor.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClCompile>
+    <ClCompile Include="Rage.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionAnimation_Rage.cpp">
+      <Filter>Source Files\Stridsläget\Grafik\Målare\ActionAnimations</Filter>
+    </ClCompile>
+    <ClCompile Include="Attached.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClCompile>
+    <ClCompile Include="Formation.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClCompile>
+    <ClCompile Include="InspiringHeroism.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathReaction.cpp">
+      <Filter>Source Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Profession.h">
+      <Filter>Header Files\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Squad.h">
+      <Filter>Header Files\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTile.h">
+      <Filter>Header Files\Stridsläget\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMap.h">
+      <Filter>Header Files\Stridsläget\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files\Stridsläget\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMaster.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerState.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualStack.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadData.h">
+      <Filter>Header Files\Stridsläget\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCoord.h">
+      <Filter>Header Files\Stridsläget\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>Header Files\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="tagID.h">
+      <Filter>Header Files\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationQueue.h">
+      <Filter>Header Files\Graphics\Animation handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationType.h">
+      <Filter>Header Files\Graphics\Animation handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsUtils.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementStage.h">
+      <Filter>Header Files\Stridsläget</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadRepresentation.h">
+      <Filter>Header Files\Stridsläget\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="mStageVisualData.h">
+      <Filter>Header Files\Stridsläget\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManagerVisualEventData.h">
+      <Filter>Header Files\Stridsläget\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="bStageVisualData.h">
+      <Filter>Header Files\Stridsläget\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMapVisualData.h">
+      <Filter>Header Files\Stridsläget\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManagerVisualData.h">
+      <Filter>Header Files\Stridsläget\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementAnimation2.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraPanner.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="MapAnimation2.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="MapAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadAI.h">
+      <Filter>Header Files\Stridsläget</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnKeeper.h">
+      <Filter>Header Files\Stridsläget</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenVisualData.h">
+      <Filter>Header Files\Statusskärmen</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusAnimation.h">
+      <Filter>Header Files\Statusskärmen</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusScreen.h">
+      <Filter>Header Files\Statusskärmen</Filter>
+    </ClInclude>
+    <ClInclude Include="Camp.h">
+      <Filter>Header Files\Lägret</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSignal.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadManager.h">
+      <Filter>Header Files\Lägret</Filter>
+    </ClInclude>
+    <ClInclude Include="Browsable.h">
+      <Filter>Header Files\Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="Browser.h">
+      <Filter>Header Files\Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowserAnimation.h">
+      <Filter>Header Files\Browser\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowserEvent.h">
+      <Filter>Header Files\Browser\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowserVisualData.h">
+      <Filter>Header Files\Browser\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadManagerAnimation.h">
+      <Filter>Header Files\Lägret\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLink.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadManagerCommands.h">
+      <Filter>Header Files\Lägret</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadManagerInitVisuals.h">
+      <Filter>Header Files\Lägret\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadManagerEvent.h">
+      <Filter>Header Files\Lägret\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Meny</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuEvent.h">
+      <Filter>Header Files\Meny</Filter>
+    </ClInclude>
+    <ClInclude Include="VerticalMenuAnimation.h">
+      <Filter>Header Files\Meny</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuVisualData.h">
+      <Filter>Header Files\Meny</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuAnimation.h">
+      <Filter>Header Files\Meny</Filter>
+    </ClInclude>
+    <ClInclude Include="HorizontalMenuAnimation.h">
+      <Filter>Header Files\Meny</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuVisualEvent.h">
+      <Filter>Header Files\Meny</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalEvent.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadManagerLayer.h">
+      <Filter>Header Files\Lägret\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadManagerState.h">
+      <Filter>Header Files\Lägret\SquadManStates</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowserLinker.h">
+      <Filter>Header Files\Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idCreator.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>Header Files\Meny</Filter>
+    </ClInclude>
+    <ClInclude Include="CampMenuState.h">
+      <Filter>Header Files\Lägret</Filter>
+    </ClInclude>
+    <ClInclude Include="CampVisualData.h">
+      <Filter>Header Files\Lägret\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="CampAnimation.h">
+      <Filter>Header Files\Lägret\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="CampEvent.h">
+      <Filter>Header Files\Lägret\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="CampMenuLayer.h">
+      <Filter>Header Files\Lägret\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationLayer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="StructuredEvent.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CampLayer.h">
+      <Filter>Header Files\Lägret\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfessionID.h">
+      <Filter>Header Files\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="InitBattleMapEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Header Files\Stridsläget\Map\SystemInstanser\Kartstyrare</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBrowser.h">
+      <Filter>Header Files\Stridsläget\Map\SystemInstanser\Kartstyrare</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadManagerMenuState.h">
+      <Filter>Header Files\Lägret\SquadManStates</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCursorEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorHandler.h">
+      <Filter>Header Files\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Header Files\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="MapAnimationLayer.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\lager</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLayer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenBattleMapEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="RootLink.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorAnimation.h">
+      <Filter>Header Files\Graphics\Animation handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerAnimation.h">
+      <Filter>Header Files\Graphics\Animation handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="MapCursorAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSquadMover.h">
+      <Filter>Header Files\Stridsläget\Map\SystemInstanser\Kartstyrare</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementDotsEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementCrossEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementTargetCrossEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleField.h">
+      <Filter>Header Files\Stridsläget\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadMovedEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPostMove.h">
+      <Filter>Header Files\Stridsläget\Map\SystemInstanser\Kartstyrare</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementDotAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsAssets.h">
+      <Filter>Header Files\Graphics\Assetcontainers</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleManager.h">
+      <Filter>Header Files\Stridsläget\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowserBucket.h">
+      <Filter>Header Files\Stridsläget\Map\SystemInstanser\Kartstyrare</Filter>
+    </ClInclude>
+    <ClInclude Include="MapFightPicker.h">
+      <Filter>Header Files\Stridsläget\Map\SystemInstanser\Kartstyrare</Filter>
+    </ClInclude>
+    <ClInclude Include="SetAttackTargetEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmationMenuEvent.h">
+      <Filter>Header Files\Meny</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnimator.h">
+      <Filter>Header Files\Graphics\Animation handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RiverAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitRepresentation.h">
+      <Filter>Header Files\Stridsläget\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitKilledEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="StartPlayerTurnEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="StartEnemyTurnEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="FightResults.h">
+      <Filter>Header Files\Stridsläget\Strid</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleStage.h">
+      <Filter>Header Files\Stridsläget\Strid</Filter>
+    </ClInclude>
+    <ClInclude Include="Fight.h">
+      <Filter>Header Files\Stridsläget\Strid</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.h">
+      <Filter>Header Files\Stridsläget\Strid</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitStatistics.h">
+      <Filter>Header Files\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Formler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExperienceBar.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="ExperienceGainAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelUpData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelUpHandler.h">
+      <Filter>Header Files\Stridsläget\Map\SystemInstanser</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenLevelUpScreenEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelUpScreenLayer.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\lager</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHandler.h">
+      <Filter>Header Files\Graphics\Assetcontainers</Filter>
+    </ClInclude>
+    <ClInclude Include="TraitTreeNode.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper</Filter>
+    </ClInclude>
+    <ClInclude Include="TraitTree.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper</Filter>
+    </ClInclude>
+    <ClInclude Include="InitLevelUpScreenEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event\levelup</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelUpScreenInputEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event\levelup</Filter>
+    </ClInclude>
+    <ClInclude Include="NextLevelupEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event\levelup</Filter>
+    </ClInclude>
+    <ClInclude Include="TraitTreeAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\lager</Filter>
+    </ClInclude>
+    <ClInclude Include="HugeStrength.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="TraitList.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper</Filter>
+    </ClInclude>
+    <ClInclude Include="PlusAttack.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\General</Filter>
+    </ClInclude>
+    <ClInclude Include="PlusDefense.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\General</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterFormation.h">
+      <Filter>Header Files\Stridsläget\Strid</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadPos.h">
+      <Filter>Header Files\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Strike.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionTag.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="allActions.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Blast.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalSelection.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\Ranger</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetingType.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="TraitFightContainer.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper</Filter>
+    </ClInclude>
+    <ClInclude Include="FightUtils.h">
+      <Filter>Header Files\Stridsläget\Strid</Filter>
+    </ClInclude>
+    <ClInclude Include="FightPos.h">
+      <Filter>Header Files\Stridsläget\Strid</Filter>
+    </ClInclude>
+    <ClInclude Include="Gains.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper\General</Filter>
+    </ClInclude>
+    <ClInclude Include="LightningStrike.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionAnimation_Strike.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="TraitAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="TraitAnimation_HugeStrength.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionAnimation_LightningStrike.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="AllActionAnimations.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter.h">
+      <Filter>Header Files\Chapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>Header Files\Chapter\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="ChapterCollection.h">
+      <Filter>Header Files\Chapter</Filter>
+    </ClInclude>
+    <ClInclude Include="VictoryAchievedEvent.h">
+      <Filter>Header Files\Stridsläget\Grafik\event</Filter>
+    </ClInclude>
+    <ClInclude Include="MapOverlayAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="DraftScreenState.h">
+      <Filter>Header Files\Drafting</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDraftScreenEvent.h">
+      <Filter>Header Files\Drafting\Graphics\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="DraftScreenLayer.h">
+      <Filter>Header Files\Drafting\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseInteractionObject.h">
+      <Filter>Header Files\Drafting\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TestButton.h">
+      <Filter>Header Files\Drafting\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseSignal.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DraftMouseButtons.h">
+      <Filter>Header Files\Drafting</Filter>
+    </ClInclude>
+    <ClInclude Include="InitDraftScreenEvent.h">
+      <Filter>Header Files\Drafting\Graphics\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitListButton.h">
+      <Filter>Header Files\Drafting\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadDrawer.h">
+      <Filter>Header Files\Graphics\Animation handlers\Drawers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextDrawer.h">
+      <Filter>Header Files\Graphics\Animation handlers\Drawers</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitDetailsWindow.h">
+      <Filter>Header Files\Drafting\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitPortraitButton.h">
+      <Filter>Header Files\Drafting\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadWindowButton.h">
+      <Filter>Header Files\Drafting\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadRepButton.h">
+      <Filter>Header Files\Drafting\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectUnitEvent.h">
+      <Filter>Header Files\Drafting\Graphics\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectSquadEvent.h">
+      <Filter>Header Files\Drafting\Graphics\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitsSwappedEvent.h">
+      <Filter>Header Files\Drafting\Graphics\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitShop.h">
+      <Filter>Header Files\Drafting</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitBoughtEvent.h">
+      <Filter>Header Files\Drafting\Graphics\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmationLayer.h">
+      <Filter>Header Files\Meny\confirmation</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmationState.h">
+      <Filter>Header Files\Meny\confirmation</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenConfirmationEvent.h">
+      <Filter>Header Files\Meny\confirmation</Filter>
+    </ClInclude>
+    <ClInclude Include="ReloadSquadListEvent.h">
+      <Filter>Header Files\Drafting\Graphics\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmationMouseButtons.h">
+      <Filter>Header Files\Meny\confirmation</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueButton.h">
+      <Filter>Header Files\Meny</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadNamePickerState.h">
+      <Filter>Header Files\Drafting</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenNamePickerEvent.h">
+      <Filter>Header Files\Drafting\Graphics\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="SquadNamePickerLayer.h">
+      <Filter>Header Files\Drafting\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="InitSquadNamePickerEvent.h">
+      <Filter>Header Files\Drafting\Graphics\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueWindow.h">
+      <Filter>Header Files\Meny</Filter>
+    </ClInclude>
+    <ClInclude Include="NamePickerButtons.h">
+      <Filter>Header Files\Drafting</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeWordSelectionEvent.h">
+      <Filter>Header Files\Drafting\Graphics\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="InitConfirmationEvent.h">
+      <Filter>Header Files\Meny\confirmation</Filter>
+    </ClInclude>
+    <ClInclude Include="StateHandler.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalStateControls.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectAnimationHandler.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\EffectAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\EffectAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeBar.h">
+      <Filter>Header Files\Stridsläget\Grafik</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeBarAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\EffectAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Riposte.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionAnimation_Riposte.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="Martyr.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionAnimation_Martyr.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations\SpriteAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="FightSpriteAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations\SpriteAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveAnimation_FightSprite.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations\SpriteAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeAnimation_FightSprite.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations\SpriteAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReactionStage.h">
+      <Filter>Header Files\Stridsläget\Strid</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionSpecifics.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="FightScene.h">
+      <Filter>Header Files\Stridsläget\Strid</Filter>
+    </ClInclude>
+    <ClInclude Include="Career.h">
+      <Filter>Header Files\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionSetup.h">
+      <Filter>Header Files\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="MainHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AllJobs.h">
+      <Filter>Header Files\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Job.h">
+      <Filter>Header Files\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="PassiveBoon.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Egenskaper</Filter>
+    </ClInclude>
+    <ClInclude Include="CareerAnimation.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\lager</Filter>
+    </ClInclude>
+    <ClInclude Include="Boon.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClInclude>
+    <ClInclude Include="Trait.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="TraitTag.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="BoonTags.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClInclude>
+    <ClInclude Include="Triggerable.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="GiantStrength.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClInclude>
+    <ClInclude Include="AllBoons.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldBearer.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClInclude>
+    <ClInclude Include="IncreaseWepProfBoon.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClInclude>
+    <ClInclude Include="HeavyArmor.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClInclude>
+    <ClInclude Include="Rage.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionAnimation_Rage.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations</Filter>
+    </ClInclude>
+    <ClInclude Include="Attached.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClInclude>
+    <ClInclude Include="Formation.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClInclude>
+    <ClInclude Include="InspiringHeroism.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Boons</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathReaction.h">
+      <Filter>Header Files\Stridsläget\Strid\UnitProgressionStructure\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionAnimation_Attack.h">
+      <Filter>Header Files\Stridsläget\Grafik\Målare\AcionAnimations</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\knekt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

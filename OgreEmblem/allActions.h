@@ -1,0 +1,9 @@
+#pragma once
+#include "Strike.h"
+#include "Blast.h"
+#include "LightningStrike.h"
+#include "Riposte.h"
+#include "Martyr.h"
+#include "Rage.h"
+#include "DeathReaction.h"
+//python-entry allActions.h

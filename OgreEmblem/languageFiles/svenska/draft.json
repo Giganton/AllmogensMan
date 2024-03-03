@@ -1,0 +1,28 @@
+{"draft" :
+	[
+		{
+			"ID" : "1", 
+			"string" : "Nytt följe" 
+		},
+		{
+			"ID" : "2", 
+			"string" : "Är du säker på att du är färdig här?" 
+		},
+		{
+			"ID" : "3", 
+			"string" : "Vill du att " 
+		},
+		{
+			"ID" : "4", 
+			"string" : " ska leda det nya följet?" 
+		},
+		{
+			"ID" : "5", 
+			"string" : "Ja" 
+		},
+		{
+			"ID" : "6", 
+			"string" : "Nej" 
+		}
+	]
+}

@@ -1,0 +1,114 @@
+{"traits" :
+	[
+		{
+			"ID" : "1", 
+			"name" : "Plus Strength", 
+			"description" : "Increases Strength by 100."
+		},
+		{
+			"ID" : "2",
+			"name" : "Plus Defense",
+			"description" : "Increases Defense by 100."
+		},
+		{
+			"ID" : "3",
+			"name" : "Natural Selection",
+			"description" : "Always attacks foe with least HP."
+		},
+		{
+			"ID" : "4",
+			"name" : "Huge Strength",
+			"description" : "Attacks pass through the first row"
+		},
+		{
+			"ID" : "5",
+			"name" : "Gains",
+			"description" : "Increase attack and defense by 1."
+		},
+		{
+			"ID" : "6",
+			"name" : "Fencing drill",
+			"description" : "Block one attack and strike back with a counter"
+		},
+		{
+			"ID" : "7",
+			"name" : "Martyr",
+			"description" : "If a friendly neighbour is in trouble, this unit jumps in to save them."
+		},
+		{
+			"ID" : "8",
+			"name" : "Lightning strike",
+			"description" : "Call down lightning bolts upon your enemy."
+		},
+		{
+			"ID" : "9",
+			"name" : "Blast",
+			"description" : "Strike at your enemy and its neighbours."
+		},
+		{
+			"ID" : "10",
+			"name" : "Strike",
+			"description" : "Strike the enemy with your weapon."
+		},
+		{
+			"ID" : "11",
+			"name" : "DummyTrait",
+			"description" : "Dummytext for a dummytrait. Lets just add some more words to it."
+		},
+		{
+			"ID" : "12",
+			"name" : "Giant strength",
+			"description" : "Attacks pass through the first row"
+		},
+		{
+			"ID" : "13",
+			"name" : "Shield bearer",
+			"description" : "Gets +2 Weapon proficiency when defending from an attack."
+		},
+		{
+			"ID" : "14",
+			"name" : "IncreaseWepProfBoon",
+			"description" : "Increase WP by given amount."
+		},
+		{
+			"ID" : "15",
+			"name" : "Warrior guild",
+			"description" : "The warriors guild. Gives +5 WP and Strike for attack, as well as a counter attack."
+		},
+		{
+			"ID" : "16",
+			"name" : "Hero guild",
+			"description" : "The heroes guild. Gives +3 WP and Strike for attack."
+		},
+		{
+			"ID" : "17",
+			"name" : "Witch guild",
+			"description" : "The witches guild. Gives +1 WP and Lightning strike for attack."
+		},
+		{
+			"ID" : "18",
+			"name" : "Full body armor",
+			"description" : "All damage taken is reduced by 2. Gives -1 WP."
+		},
+		{
+			"ID" : "19",
+			"name" : "Rage",
+			"description" : "Perform an attack on a random target upon taking damage."
+		},
+		{
+			"ID" : "20",
+			"name" : "Attached",
+			"description" : "Gets +3 attack when a friend dies."
+		},
+		{
+			"ID" : "21",
+			"name" : "Formation",
+			"description" : "Gets +2 WP for each neighbour with Formation."
+		},
+		{
+			"ID" : "22",
+			"name" : "InspiringHeroism",
+			"description" : "Any dying ally performs one last attack before they die."
+		}
+	]
+}

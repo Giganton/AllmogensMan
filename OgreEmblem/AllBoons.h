@@ -1,0 +1,9 @@
+#pragma once
+#include "GiantStrength.h"
+#include "ShieldBearer.h"
+#include "IncreaseWepProfBoon.h"
+#include "HeavyArmor.h"
+#include "Attached.h"
+#include "Formation.h"
+#include "InspiringHeroism.h"
+//python-entry allBoons.h
